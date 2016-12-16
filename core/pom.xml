@@ -15,6 +15,14 @@
 			<artifactId>graphhopper-reader-gtfs</artifactId>
 			<version>${graphhopper.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 	</build>

@@ -28,8 +28,9 @@ public class RoadstoGraphHopperGtfsTest {
 	@Test
 	public void testSpt() {
 		final double FROM_LAT = 48.399368824050626, FROM_LON = 9.984123929980187;
-		Collection<Label> results = graphHopper.spt(FROM_LAT, FROM_LON);
-
-		assertEquals(606890, results.size());
+		Collection<Link> links = graphHopper.spt(FROM_LAT, FROM_LON);
+		assertEquals(483, links.size());
+		links.stream().map(Link::toJsonObject).map(Object::toString)
+				.forEach(System.out::println);
 	}
 }
