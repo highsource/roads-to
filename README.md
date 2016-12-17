@@ -17,7 +17,7 @@ RoadsTo was developed on the [5th DB Hackathon](https://www.mindboxberlin.com/in
 
 You will need a [GTFS](https://developers.google.com/transit/gtfs/reference/) timetable for calculations. Visit http://opentransportdata.de for some GTFS sources.
 
-Download a current version of `roadsto.jar` from [Releases](https://github.com/highsource/roads-to/releases).
+Download a current version of `roads-to.jar` from [Releases](https://github.com/highsource/roads-to/releases).
 
 Example of command-line usage:
 
