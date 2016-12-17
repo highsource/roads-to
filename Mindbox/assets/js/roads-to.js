@@ -45,9 +45,9 @@ $(function() {
 
 	L.geoJSON(roads, {
 		style: function (feature) {
-				var value = Math.pow(2 * feature.properties.currentTime/86400, .8);
-				var hue = value + (1/3);
-				var rgb = hslToRgb(hue, 1, .4);
+				var value = Math.pow(1.5 * feature.properties.currentTime/86400, 1.5);
+				var hue = value + 0.66;
+				var rgb = hslToRgb(hue, 1, 0.5);
 				var color = 'rgb(' + rgb[0] + ',' + rgb[1] + ',' + rgb[2] + ')';
 				console.log(feature.properties.currentTime + "->" + value + "->" + color);
 			return {
