@@ -3,7 +3,7 @@
 	<groupId>org.hisrc.roads-to</groupId>
 	<artifactId>roads-to-project</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>RoadsTo - Project</name>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
