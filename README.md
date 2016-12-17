@@ -60,7 +60,7 @@ Other recommended GC settings are `-XX:+UseConcMarkSweepGC` and if you want to m
 * [Roads to Mindbox, Berlin](https://highsource.github.io/roads-to/Mindbox/index.html) - thanks to VBB
 * [Roads to Mannheim](https://highsource.github.io/roads-to/Mannheim/) - thanks to RNV
 * [Roads to Palermo](https://highsource.github.io/roads-to/Palermo/) - thanks to AMAT
-* [Roads to Palermo](https://highsource.github.io/roads-to/Zürich/) - thanks to [opentransportdata.swiss](https://opentransportdata.swiss)
+* [Roads to Zürich](https://highsource.github.io/roads-to/Zürich/) - thanks to [opentransportdata.swiss](https://opentransportdata.swiss)
 
 # License
 
