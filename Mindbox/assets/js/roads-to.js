@@ -49,7 +49,6 @@ $(function() {
 				var hue = value + 0.66;
 				var rgb = hslToRgb(hue, 1, 0.5);
 				var color = 'rgb(' + rgb[0] + ',' + rgb[1] + ',' + rgb[2] + ')';
-				console.log(feature.properties.currentTime + "->" + value + "->" + color);
 			return {
 				color: color,
 				weight: (Math.log(feature.properties.numberOfThreads)/Math.log(10) + 0.25)
