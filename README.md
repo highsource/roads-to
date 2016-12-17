@@ -2,7 +2,7 @@
 
 This tool calculates all the possible public transport connections between certain location (*the Rome*) and everywhere else.
 
-[![Roads to Mindbox](media/Roads-To-Mindbox.png)](https://highsource.github.io/roads-to/Mindbox/index.html)
+[![Roads to Mindbox](media/Roads-To-Mindbox.png)](https://highsource.github.io/roads-to/Mindbox/)
 
 This solution is inpired by the [Roads To Rome](http://roadstorome.moovellab.com) by [moovellab](https://lab.moovel.com),
 the only difference that it works with public transport connections (defined by a [GTFS](https://developers.google.com/transit/gtfs/reference/) timetable) and not a road network.
@@ -56,9 +56,10 @@ Other recommended GC settings are `-XX:+UseConcMarkSweepGC` and if you want to m
 
 # Examples
 
-* [Roads to Mindbox, Berlin](https://highsource.github.io/roads-to/Mindbox/index.html)
-* [Roads to Ulm](https://highsource.github.io/roads-to/Ulm/index.html)
-* [Roads to Palermo](https://highsource.github.io/roads-to/Palermo/index.html)
+* [Roads to Ulm](https://highsource.github.io/roads-to/Ulm/) - thanks to SWU
+* [Roads to Mindbox, Berlin](https://highsource.github.io/roads-to/Mindbox/index.html) - thanks to VBB
+* [Roads to Mannheim](https://highsource.github.io/roads-to/Mannheim/) - thanks to RNV
+* [Roads to Palermo](https://highsource.github.io/roads-to/Palermo/) - thanks to AMAT
 
 # License
 
