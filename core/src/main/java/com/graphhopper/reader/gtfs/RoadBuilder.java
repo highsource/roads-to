@@ -1,6 +1,5 @@
 package com.graphhopper.reader.gtfs;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,17 +7,17 @@ import com.graphhopper.storage.GraphHopperStorage;
 import com.graphhopper.util.EdgeIteratorState;
 import com.graphhopper.util.PointList;
 
-public class LinkBuilder {
+public class RoadBuilder {
 
 	private final GraphHopperStorage storage;
 
-	public LinkBuilder(GraphHopperStorage storage) {
+	public RoadBuilder(GraphHopperStorage storage) {
 		this.storage = storage;
 	}
 
 	private Map<PointList, Label> labels = new HashMap<>();
 
-	private Map<PointList, Link> links = new HashMap<>();
+	private Map<PointList, Road> roads = new HashMap<>();
 
 	public void addLabel(Label label) {
 		if (label.edge == -1) {
@@ -46,12 +45,12 @@ public class LinkBuilder {
 		});
 	}
 
-	public Collection<Link> buildLinks() {
-		this.labels.values().forEach(this::buildLinks);
-		return this.links.values();
+	public Roads buildRoads() {
+		this.labels.values().forEach(this::buildRoads);
+		return new Roads(this.roads.values());
 	}
 
-	private void buildLinks(Label label) {
+	private void buildRoads(Label label) {
 		if (label == null || label.edge == -1) {
 			return;
 		}
@@ -88,11 +87,11 @@ public class LinkBuilder {
 				&& pointList.size() < 2);
 
 		pointList.reverse();
-		final Link link = new Link(startTime, endTime, numberOfTransfers,
+		final Road road = new Road(startTime, endTime, numberOfTransfers,
 				pointList);
 
-		links.put(link.getPointList(), link);
-		buildLinks(currentLabel);
+		roads.put(road.getPointList(), road);
+		buildRoads(currentLabel);
 	}
 
 }

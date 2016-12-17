@@ -7,14 +7,14 @@ import javax.json.spi.JsonProvider;
 
 import com.graphhopper.util.PointList;
 
-public class Link {
+public class Road {
 
 	private long startTime;
 	private long endTime;
 	private int numberOfTransfers;
 	private PointList pointList;
 
-	public Link(long startTime, long endTime, int numberOfTransfers,
+	public Road(long startTime, long endTime, int numberOfTransfers,
 			PointList pointList) {
 		this.startTime = startTime;
 		this.endTime = endTime;
@@ -40,7 +40,7 @@ public class Link {
 
 	@Override
 	public String toString() {
-		return "Link [startTime=" + startTime + ", endTime=" + endTime
+		return "Road [startTime=" + startTime + ", endTime=" + endTime
 				+ ", numberOfTransfers=" + numberOfTransfers + ", pointList="
 				+ pointList + "]";
 	}

@@ -30,7 +30,7 @@ import com.graphhopper.util.TranslationMap;
 import com.graphhopper.util.Unzipper;
 import com.graphhopper.util.shapes.GHPoint;
 
-public final class RoadstoGraphHopperGtfs {
+public final class RoadsToGraphHopperGtfs {
 
 	public static final String EARLIEST_DEPARTURE_TIME_HINT = "earliestDepartureTime";
 	public static final String RANGE_QUERY_END_TIME = "rangeQueryEndTime";
@@ -43,7 +43,7 @@ public final class RoadstoGraphHopperGtfs {
 	private LocationIndex locationIndex;
 	private GtfsStorage gtfsStorage;
 
-	public RoadstoGraphHopperGtfs(EncodingManager encodingManager,
+	public RoadsToGraphHopperGtfs(EncodingManager encodingManager,
 			TranslationMap translationMap,
 			GraphHopperStorage graphHopperStorage, LocationIndex locationIndex,
 			GtfsStorage gtfsStorage) {
@@ -54,7 +54,7 @@ public final class RoadstoGraphHopperGtfs {
 		this.gtfsStorage = gtfsStorage;
 	}
 
-	public static RoadstoGraphHopperGtfs createGraphHopperGtfs(
+	public static RoadsToGraphHopperGtfs createGraphHopperGtfs(
 			String graphHopperFolder, String gtfsFile, boolean createWalkNetwork) {
 		EncodingManager encodingManager = createEncodingManager();
 
@@ -94,7 +94,7 @@ public final class RoadstoGraphHopperGtfs {
 		LocationIndex locationIndex = createOrLoadIndex(directory,
 				graphHopperStorage);
 
-		return new RoadstoGraphHopperGtfs(encodingManager,
+		return new RoadsToGraphHopperGtfs(encodingManager,
 				createTranslationMap(), graphHopperStorage, locationIndex,
 				gtfsStorage);
 	}
@@ -177,7 +177,7 @@ public final class RoadstoGraphHopperGtfs {
 				"We are always loaded, or we wouldn't exist.");
 	}
 
-	public Collection<Link> spt(double lat, double lon) {
+	public Roads roadsFrom(double lat, double lon) {
 		GHRequest request = new GHRequest(lat, lon, lat, lon);
 		final int maxVisitedNodesForRequest = request.getHints().getInt(
 				Parameters.Routing.MAX_VISITED_NODES, Integer.MAX_VALUE);
@@ -223,14 +223,14 @@ public final class RoadstoGraphHopperGtfs {
 		QueryResult source = locationIndex.findClosest(enter.lat, enter.lon,
 				enterFilter);
 		if (!source.isValid()) {
-			return Collections.emptySet();
+			return new Roads(Collections.emptySet());
 		}
 		queryResults.add(source);
 
 		QueryResult dest = locationIndex.findClosest(exit.lat, exit.lon,
 				exitFilter);
 		if (!dest.isValid()) {
-			return Collections.emptySet();
+			return new Roads(Collections.emptySet());
 		}
 		queryResults.add(dest);
 
@@ -280,12 +280,12 @@ public final class RoadstoGraphHopperGtfs {
 		Collection<Label> solutions = router.calcLabels(startNode, initialTime,
 				rangeQueryEndTime);
 
-		final LinkBuilder linkBuilder = new LinkBuilder(graphHopperStorage);
+		final RoadBuilder roadsBuilder = new RoadBuilder(graphHopperStorage);
 
 		for (Label label : solutions) {
-			linkBuilder.addLabel(label);
+			roadsBuilder.addLabel(label);
 		}
-		return linkBuilder.buildLinks();
+		return roadsBuilder.buildRoads();
 
 		/*
 		 * Map<Integer, AtomicInteger> cnt = new HashMap<>();
