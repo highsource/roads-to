@@ -5,11 +5,11 @@ $(function() {
 
 	var basemapLayer = new L.TileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3JsZXNzIiwiYSI6ImNpaXg4cGt2cTAwMGh2Mm01ZDlqYnk5N28ifQ.EDKxdytV0xTiHyI16K0zsg',
 			{attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
-	id: 'mapbox.streets'
-
-});
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery &copy; <a href="http://mapbox.com">Mapbox</a>, ' +
+				'Routing by <a href="https://graphhopper.com">GraphHopper</a>',
+			id: 'mapbox.streets'
+			});
 
 	var hslToRgb = function (h, s, l){
 		var r, g, b;
