@@ -2,8 +2,7 @@
 
 This tool calculates all the possible public transport connections between certain location (*the Rome*) and everywhere else.
 
-[![Roads to Mindbox](media/Roads-to-Mindbox.png)](https://highsource.github.io/roads-to/Mindbox/)
-
+![Roads to Mindbox](media/Roads-To-Mindbox.png)
 
 This solution is inpired by the [Roads To Rome](http://roadstorome.moovellab.com) by [moovellab](https://lab.moovel.com),
 the only difference that it works with public transport connections (defined by a [GTFS](https://developers.google.com/transit/gtfs/reference/) timetable) and not a road network.
