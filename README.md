@@ -2,7 +2,7 @@
 
 This tool calculates all the possible public transport connections between certain location (*the Rome*) and everywhere else.
 
-TODO Image
+[![Roads to Mindbox](media/Roads-to-Mindbox.png)](https://highsource.github.io/roads-to/Mindbox/)
 
 
 This solution is inpired by the [Roads To Rome](http://roadstorome.moovellab.com) by [moovellab](https://lab.moovel.com),
@@ -25,8 +25,8 @@ Example of command-line usage:
 
 ```
 java
-    -server -Xmx16G -Xms1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+PrintGCDetails -XX:+PrintGCTimeStamps
-    -jar roadsto.jar
+    -Xmx1G -XX:+UseConcMarkSweepGC
+    -jar roads-to.jar
         -graph.location=data/swu
         -gtfs.file=files/swu.zip
         -fromlon=9.984123929980187
@@ -38,7 +38,7 @@ java
 Or, as a single line:
 
 ```
-java -server -Xmx16G -Xms1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar roadsto.jar -graph.location=swu -gtfs.file=swu.zip -fromlon=9.984123929980187 -fromlat=48.399368824050626 -geojson.file=roads.js -geojson.var=roads
+java -Xmx1G -XX:+UseConcMarkSweepGC -jar roads-to.jar -graph.location=swu -gtfs.file=swu.zip -fromlon=9.984123929980187 -fromlat=48.399368824050626 -geojson.file=roads.js -geojson.var=roads
 
 ```
 
@@ -53,8 +53,7 @@ Command-line options:
 
 
 Graph data only needs to be prepared once. In case of large timetables it may need a lot of memory, so `-Xmx16G -Xms1G` is recommended.
-Other recommended GC settings are `-XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode` and if you want to monitor garbage collection ``.
-
+Other recommended GC settings are `-XX:+UseConcMarkSweepGC` and if you want to monitor garbage collection with `-XX:+PrintGCDetails -XX:+PrintGCTimeStamps`.
 
 # Examples
 

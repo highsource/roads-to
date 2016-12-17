@@ -9,29 +9,32 @@ import com.graphhopper.util.PointList;
 
 public class Road {
 
-	private long startTime;
-	private long endTime;
+	private long currentTime;
 	private int numberOfTransfers;
 	private PointList pointList;
+	private int numberOfThreads = 1;
 
-	public Road(long startTime, long endTime, int numberOfTransfers,
-			PointList pointList) {
-		this.startTime = startTime;
-		this.endTime = endTime;
+	public Road(long startTime, int numberOfTransfers, PointList pointList) {
+		this.currentTime = startTime;
 		this.pointList = pointList;
 		this.numberOfTransfers = numberOfTransfers;
 	}
 
-	public long getStartTime() {
-		return startTime;
+	public Road increadNumberOfThreads() {
+		this.numberOfThreads++;
+		return this;
 	}
 
-	public long getEndTime() {
-		return endTime;
+	public long getCurrentTime() {
+		return currentTime;
 	}
 
 	public int getNumberOfTransfers() {
 		return numberOfTransfers;
+	}
+
+	public int getNumberOfThreads() {
+		return numberOfThreads;
 	}
 
 	public PointList getPointList() {
@@ -40,9 +43,9 @@ public class Road {
 
 	@Override
 	public String toString() {
-		return "Road [startTime=" + startTime + ", endTime=" + endTime
-				+ ", numberOfTransfers=" + numberOfTransfers + ", pointList="
-				+ pointList + "]";
+		return "Road [currentTime=" + currentTime + ", numberOfTransfers="
+				+ numberOfTransfers + ", pointList=" + pointList
+				+ ", numberOfThreads=" + numberOfThreads + "]";
 	}
 
 	public JsonObject toJsonObject() {
@@ -54,9 +57,9 @@ public class Road {
 		final JsonObjectBuilder properties = JsonProvider.provider()
 				.createObjectBuilder();
 
-		properties.add("startTime", getStartTime());
-		properties.add("endTime", getEndTime());
+		properties.add("currentTime", getCurrentTime());
 		properties.add("numberOfTransfers", getNumberOfTransfers());
+		properties.add("numberOfThreads", getNumberOfThreads());
 		builder.add("properties", properties);
 
 		JsonObjectBuilder geometryBuilder = JsonProvider.provider()

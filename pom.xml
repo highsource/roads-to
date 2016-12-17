@@ -4,7 +4,7 @@
 	<artifactId>roads-to-project</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>Roads To - Project</name>
+	<name>RoadsTo - Project</name>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
@@ -22,6 +22,7 @@
 	</scm>
 	<modules>
 		<module>core</module>
+		<module>full</module>
 	</modules>
 	<profiles>
 		<profile>

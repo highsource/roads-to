@@ -3,7 +3,7 @@
 	<groupId>org.hisrc.roads-to</groupId>
 	<artifactId>roads-to-core</artifactId>
 	<packaging>jar</packaging>
-	<name>Roads To - Core</name>
+	<name>RoadsTo - Core</name>
 	<parent>
 		<groupId>org.hisrc.roads-to</groupId>
 		<artifactId>roads-to-project</artifactId>
@@ -13,7 +13,6 @@
 		<dependency>
 			<groupId>com.graphhopper</groupId>
 			<artifactId>graphhopper-reader-gtfs</artifactId>
-			<version>${graphhopper.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish</groupId>

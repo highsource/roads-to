@@ -6,7 +6,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class RoadsToGraphHopperGtfsTest {
+public class RunRoadsToGraphHopperGtfs {
 
 	private static final String GRAPH_LOC = "data/swu";
 	private static RoadsToGraphHopperGtfs graphHopper;

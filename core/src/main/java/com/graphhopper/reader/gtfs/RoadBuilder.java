@@ -1,5 +1,6 @@
 package com.graphhopper.reader.gtfs;
 
+import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,16 +21,8 @@ public class RoadBuilder {
 	private Map<PointList, Road> roads = new HashMap<>();
 
 	public void addLabel(Label label) {
-		if (label.edge == -1) {
-			return;
-		}
-
-		final EdgeIteratorState state = storage.getEdgeIteratorState(
-				label.edge, label.adjNode);
-		final PointList geometry = state.fetchWayGeometry(3);
-
-		double lastLat = geometry.getLat(geometry.getSize() - 1);
-		double lastLon = geometry.getLon(geometry.getSize() - 1);
+		double lastLat = storage.getNodeAccess().getLat(label.adjNode);
+		double lastLon = storage.getNodeAccess().getLon(label.adjNode);
 		final PointList lastPoint = new PointList(1, false);
 		lastPoint.add(lastLat, lastLon);
 
@@ -54,20 +47,18 @@ public class RoadBuilder {
 		if (label == null || label.edge == -1) {
 			return;
 		}
-		long startTime;
-		long endTime;
+		long currentTime;
 		final PointList pointList = new PointList();
 		int numberOfTransfers = 0;
 
 		double lastLat = Double.NaN;
 		double lastLon = Double.NaN;
 		Label currentLabel = label;
-		endTime = label.currentTime;
+		currentTime = currentLabel.currentTime;
 		do {
-			startTime = label.currentTime;
-			numberOfTransfers += label.nTransfers;
+			numberOfTransfers += currentLabel.nTransfers;
 			final EdgeIteratorState state = storage.getEdgeIteratorState(
-					label.edge, label.adjNode);
+					currentLabel.edge, currentLabel.adjNode);
 			final PointList geometry = state.fetchWayGeometry(3);
 			for (int index = geometry.getSize() - 1; index >= 0; index--) {
 				double currentLat = geometry.getLat(index);
@@ -85,13 +76,21 @@ public class RoadBuilder {
 			currentLabel = currentLabel.parent;
 		} while (currentLabel != null && currentLabel.edge != -1
 				&& pointList.size() < 2);
+		if (pointList.size() < 2) {
+			System.out.println(MessageFormat.format("Point list size is {0}.",
+					pointList.size()));
+		}
 
 		pointList.reverse();
-		final Road road = new Road(startTime, endTime, numberOfTransfers,
-				pointList);
+		final Road road = new Road(currentTime, numberOfTransfers, pointList);
 
-		roads.put(road.getPointList(), road);
+		roads.compute(road.getPointList(), (key, oldRoad) -> {
+			if (oldRoad == null) {
+				return road;
+			} else {
+				return oldRoad.increadNumberOfThreads();
+			}
+		});
 		buildRoads(currentLabel);
 	}
-
 }

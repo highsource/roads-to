@@ -1,0 +1,1 @@
+java -Xmx1G -Xms1G -XX:+UseConcMarkSweepGC -jar target/roads-to.jar -graph.location=../core/data/swu -gtfs.file=../core/files/swu.zip -fromlon=9.984123929980187 -fromlat=48.399368824050626 -geojson.file=../core/data/swu/roads.js -geojson.var=roads

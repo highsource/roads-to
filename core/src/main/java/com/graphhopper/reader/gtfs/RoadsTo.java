@@ -27,13 +27,13 @@ public class RoadsTo {
 	public void process(CmdArgs args) {
 		final RoadsToGraphHopperGtfs roadsToGraphHopperGtfs = init(args);
 
-		String latString = args.get("tolat", "tolat not specified");
-		String lonString = args.get("tolon", "tolon not specified");
+		String fromlatString = args.get("fromlat", "fromlat not specified");
+		String fromlonString = args.get("fromlon", "fromlon not specified");
 
-		double lat = Double.parseDouble(latString);
-		double lon = Double.parseDouble(lonString);
+		double fromlat = Double.parseDouble(fromlatString);
+		double fromlon = Double.parseDouble(fromlonString);
 
-		final Roads roads = roadsToGraphHopperGtfs.roadsFrom(lat, lon);
+		final Roads roads = roadsToGraphHopperGtfs.roadsFrom(fromlat, fromlon);
 
 		String geojsonFile = args.get("geojson.file", "");
 		String geojsonVar = args.get("geojson.var", "");
@@ -79,7 +79,7 @@ public class RoadsTo {
 		String gtfsFile = args.get("gtfs.file", "");
 		String graphLocation = args.get("graph.location", "");
 		return RoadsToGraphHopperGtfs.createGraphHopperGtfs(graphLocation,
-				"files/swu.zip", true);
+				gtfsFile, true);
 	}
 
 }

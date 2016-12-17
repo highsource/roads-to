@@ -116,7 +116,7 @@ class MultiCriteriaLabelsSetting {
 		while (true) {
 			visitedNodes++;
 			if (visitedNodes % 1000 == 0) {
-				System.out.println(MessageFormat.format(
+				System.err.println(MessageFormat.format(
 						"Visited nodes: {0}/{1}", visitedNodes, nodes));
 			}
 			if (maxVisitedNodes < visitedNodes)
