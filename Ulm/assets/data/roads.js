@@ -5,9 +5,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1486,
-                "endTime":1486,
-                "numberOfTransfers":0
+                "currentTime":1486,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -26,9 +26,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":253,
-                "endTime":253,
-                "numberOfTransfers":0
+                "currentTime":253,
+                "numberOfTransfers":0,
+                "numberOfThreads":60
             },
             "geometry":{
                 "type":"LineString",
@@ -47,9 +47,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1009,
-                "endTime":1009,
-                "numberOfTransfers":0
+                "currentTime":1009,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -68,9 +68,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6241,
-                "endTime":6241,
-                "numberOfTransfers":0
+                "currentTime":6241,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -89,30 +89,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2984,
-                "endTime":2984,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.955751932168422,
-                        48.375050873496775
-                    ],
-                    [
-                        9.954388848417748,
-                        48.37119091386775
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1300,
-                "endTime":1300,
-                "numberOfTransfers":0
+                "currentTime":1300,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -131,20 +110,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1480,
-                "endTime":1480,
-                "numberOfTransfers":0
+                "currentTime":2984,
+                "numberOfTransfers":0,
+                "numberOfThreads":40
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.961729905643983,
-                        48.400599846257265
+                        9.955751932168422,
+                        48.375050873496775
                     ],
                     [
-                        9.959067999401718,
-                        48.40306487090285
+                        9.954388848417748,
+                        48.37119091386775
                     ]
                 ]
             }
@@ -152,9 +131,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3864,
-                "endTime":3864,
-                "numberOfTransfers":0
+                "currentTime":3864,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -173,9 +152,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4035,
-                "endTime":4035,
-                "numberOfTransfers":0
+                "currentTime":1480,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.961729905643983,
+                        48.400599846257265
+                    ],
+                    [
+                        9.959067999401718,
+                        48.40306487090285
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4035,
+                "numberOfTransfers":0,
+                "numberOfThreads":9
             },
             "geometry":{
                 "type":"LineString",
@@ -194,9 +194,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1279,
-                "endTime":1279,
-                "numberOfTransfers":0
+                "currentTime":1279,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -215,9 +215,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2243,
-                "endTime":2243,
-                "numberOfTransfers":0
+                "currentTime":2243,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -236,9 +236,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5604,
-                "endTime":5604,
-                "numberOfTransfers":0
+                "currentTime":5604,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -257,9 +257,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1504,
-                "endTime":1504,
-                "numberOfTransfers":0
+                "currentTime":1504,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -278,9 +278,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1577,
-                "endTime":1577,
-                "numberOfTransfers":0
+                "currentTime":1577,
+                "numberOfTransfers":0,
+                "numberOfThreads":82
             },
             "geometry":{
                 "type":"LineString",
@@ -299,9 +299,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2242,
-                "endTime":2242,
-                "numberOfTransfers":0
+                "currentTime":2242,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -320,9 +320,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5405,
-                "endTime":5405,
-                "numberOfTransfers":0
+                "currentTime":5405,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -341,9 +341,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":860,
-                "endTime":860,
-                "numberOfTransfers":0
+                "currentTime":860,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -362,51 +362,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1984,
-                "endTime":1984,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.992189928714707,
-                        48.41134991671182
-                    ],
-                    [
-                        10.003201887083096,
-                        48.419128881822424
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2348,
-                "endTime":2348,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.007268972857348,
-                        48.37929491056416
-                    ],
-                    [
-                        10.010561943290277,
-                        48.37693587042993
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3306,
-                "endTime":3306,
-                "numberOfTransfers":0
+                "currentTime":3306,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -425,9 +383,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1816,
-                "endTime":1816,
-                "numberOfTransfers":0
+                "currentTime":2348,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.007268972857348,
+                        48.37929491056416
+                    ],
+                    [
+                        10.010561943290277,
+                        48.37693587042993
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1984,
+                "numberOfTransfers":0,
+                "numberOfThreads":26
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.992189928714707,
+                        48.41134991671182
+                    ],
+                    [
+                        10.003201887083096,
+                        48.419128881822424
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1816,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
@@ -446,9 +446,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1884,
-                "endTime":1884,
-                "numberOfTransfers":0
+                "currentTime":1884,
+                "numberOfTransfers":0,
+                "numberOfThreads":16
             },
             "geometry":{
                 "type":"LineString",
@@ -467,30 +467,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3289,
-                "endTime":3289,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.954388848417748,
-                        48.37119091386775
-                    ],
-                    [
-                        9.949108994359724,
-                        48.36968794546324
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":6383,
-                "endTime":6383,
-                "numberOfTransfers":0
+                "currentTime":6383,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -509,9 +488,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1162,
-                "endTime":1162,
-                "numberOfTransfers":0
+                "currentTime":3289,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.954388848417748,
+                        48.37119091386775
+                    ],
+                    [
+                        9.949108994359724,
+                        48.36968794546324
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1162,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -530,9 +530,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3725,
-                "endTime":3725,
-                "numberOfTransfers":0
+                "currentTime":3725,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -551,30 +551,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":567,
-                "endTime":567,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.984123929980187,
-                        48.399368824050626
-                    ],
-                    [
-                        9.974053911284818,
-                        48.4017429516109
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2052,
-                "endTime":2052,
-                "numberOfTransfers":0
+                "currentTime":2052,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -593,9 +572,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5353,
-                "endTime":5353,
-                "numberOfTransfers":0
+                "currentTime":567,
+                "numberOfTransfers":0,
+                "numberOfThreads":116
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.974053911284818,
+                        48.4017429516109
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1686,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.970559961435795,
+                        48.38842988137372
+                    ],
+                    [
+                        9.96349997736886,
+                        48.387609944960694
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":5353,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -614,30 +635,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1686,
-                "endTime":1686,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.970559961435795,
-                        48.38842988137372
-                    ],
-                    [
-                        9.96349997736886,
-                        48.387609944960694
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1278,
-                "endTime":1278,
-                "numberOfTransfers":0
+                "currentTime":1278,
+                "numberOfTransfers":0,
+                "numberOfThreads":20
             },
             "geometry":{
                 "type":"LineString",
@@ -656,9 +656,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3198,
-                "endTime":3198,
-                "numberOfTransfers":0
+                "currentTime":3198,
+                "numberOfTransfers":0,
+                "numberOfThreads":25
             },
             "geometry":{
                 "type":"LineString",
@@ -677,9 +677,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":791,
-                "endTime":791,
-                "numberOfTransfers":0
+                "currentTime":791,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -698,9 +698,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2103,
-                "endTime":2103,
-                "numberOfTransfers":0
+                "currentTime":2103,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -719,9 +719,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":875,
-                "endTime":875,
-                "numberOfTransfers":0
+                "currentTime":875,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -740,9 +740,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4970,
-                "endTime":4970,
-                "numberOfTransfers":0
+                "currentTime":4970,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -761,9 +761,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1930,
-                "endTime":1930,
-                "numberOfTransfers":0
+                "currentTime":1930,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -782,9 +782,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2699,
-                "endTime":2699,
-                "numberOfTransfers":0
+                "currentTime":2699,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
             },
             "geometry":{
                 "type":"LineString",
@@ -803,9 +803,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1895,
-                "endTime":1895,
-                "numberOfTransfers":0
+                "currentTime":1895,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -824,9 +824,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6666,
-                "endTime":6666,
-                "numberOfTransfers":0
+                "currentTime":6666,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -845,9 +845,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3604,
-                "endTime":3604,
-                "numberOfTransfers":0
+                "currentTime":3604,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -866,9 +866,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4378,
-                "endTime":4378,
-                "numberOfTransfers":0
+                "currentTime":4378,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -887,51 +887,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2368,
-                "endTime":2368,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.022450835014526,
-                        48.40210095201658
-                    ],
-                    [
-                        10.023366883919392,
-                        48.40360094018879
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3217,
-                "endTime":3217,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.975259974045901,
-                        48.38648993640743
-                    ],
-                    [
-                        9.976463987897276,
-                        48.360511996459486
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4291,
-                "endTime":4291,
-                "numberOfTransfers":0
+                "currentTime":4291,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -950,9 +908,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1572,
-                "endTime":1572,
-                "numberOfTransfers":0
+                "currentTime":3217,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.975259974045901,
+                        48.38648993640743
+                    ],
+                    [
+                        9.976463987897276,
+                        48.360511996459486
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2368,
+                "numberOfTransfers":0,
+                "numberOfThreads":17
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.022450835014526,
+                        48.40210095201658
+                    ],
+                    [
+                        10.023366883919392,
+                        48.40360094018879
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1572,
+                "numberOfTransfers":0,
+                "numberOfThreads":31
             },
             "geometry":{
                 "type":"LineString",
@@ -971,9 +971,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3536,
-                "endTime":3536,
-                "numberOfTransfers":0
+                "currentTime":3536,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -992,9 +992,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1208,
-                "endTime":1208,
-                "numberOfTransfers":0
+                "currentTime":1208,
+                "numberOfTransfers":0,
+                "numberOfThreads":26
             },
             "geometry":{
                 "type":"LineString",
@@ -1013,9 +1013,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1846,
-                "endTime":1846,
-                "numberOfTransfers":0
+                "currentTime":1846,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -1034,9 +1034,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":748,
-                "endTime":748,
-                "numberOfTransfers":0
+                "currentTime":748,
+                "numberOfTransfers":0,
+                "numberOfThreads":36
             },
             "geometry":{
                 "type":"LineString",
@@ -1055,9 +1055,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":859,
-                "endTime":859,
-                "numberOfTransfers":0
+                "currentTime":859,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1076,51 +1076,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3372,
-                "endTime":3372,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.952981992505089,
-                        48.36711693630629
-                    ],
-                    [
-                        9.952722898559038,
-                        48.366455883528054
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4045,
-                "endTime":4045,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.985910951776303,
-                        48.44695288941904
-                    ],
-                    [
-                        9.986935965424834,
-                        48.448863963384866
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3092,
-                "endTime":3092,
-                "numberOfTransfers":0
+                "currentTime":3092,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1139,20 +1097,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3666,
-                "endTime":3666,
-                "numberOfTransfers":0
+                "currentTime":4045,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.941072984212779,
-                        48.373095841104444
+                        9.985910951776303,
+                        48.44695288941904
                     ],
                     [
-                        9.937085992181734,
-                        48.370175958503246
+                        9.986935965424834,
+                        48.448863963384866
                     ]
                 ]
             }
@@ -1160,9 +1118,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2147,
-                "endTime":2147,
-                "numberOfTransfers":0
+                "currentTime":3372,
+                "numberOfTransfers":0,
+                "numberOfThreads":21
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.952981992505089,
+                        48.36711693630629
+                    ],
+                    [
+                        9.952722898559038,
+                        48.366455883528054
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2147,
+                "numberOfTransfers":0,
+                "numberOfThreads":18
             },
             "geometry":{
                 "type":"LineString",
@@ -1181,9 +1160,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":140,
-                "endTime":167,
-                "numberOfTransfers":0
+                "currentTime":3666,
+                "numberOfTransfers":0,
+                "numberOfThreads":15
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.941072984212779,
+                        48.373095841104444
+                    ],
+                    [
+                        9.937085992181734,
+                        48.370175958503246
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":167,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1202,9 +1202,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5734,
-                "endTime":5734,
-                "numberOfTransfers":0
+                "currentTime":5734,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1223,9 +1223,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1541,
-                "endTime":1541,
-                "numberOfTransfers":0
+                "currentTime":1541,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -1244,9 +1244,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1254,
-                "endTime":1254,
-                "numberOfTransfers":0
+                "currentTime":1254,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -1265,9 +1265,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2646,
-                "endTime":2646,
-                "numberOfTransfers":0
+                "currentTime":2646,
+                "numberOfTransfers":0,
+                "numberOfThreads":28
             },
             "geometry":{
                 "type":"LineString",
@@ -1286,9 +1286,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1053,
-                "endTime":1053,
-                "numberOfTransfers":0
+                "currentTime":1053,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1307,20 +1307,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":278,
-                "endTime":278,
-                "numberOfTransfers":0
+                "currentTime":3502,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.984219856207517,
-                        48.399339953050166
+                        10.01960992856942,
+                        48.43321997895583
                     ],
                     [
-                        9.988200887773951,
-                        48.39717388295771
+                        10.02044793264079,
+                        48.43340791985559
                     ]
                 ]
             }
@@ -1328,9 +1328,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3556,
-                "endTime":3556,
-                "numberOfTransfers":0
+                "currentTime":3690,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.042200834502298,
+                        48.40789489614728
+                    ],
+                    [
+                        10.046868995879642,
+                        48.407307976647644
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3556,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1349,20 +1370,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3690,
-                "endTime":3690,
-                "numberOfTransfers":0
+                "currentTime":278,
+                "numberOfTransfers":0,
+                "numberOfThreads":73
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        10.042200834502298,
-                        48.40789489614728
+                        9.984219856207517,
+                        48.399339953050166
                     ],
                     [
-                        10.046868995879642,
-                        48.407307976647644
+                        9.988200887773951,
+                        48.39717388295771
                     ]
                 ]
             }
@@ -1370,30 +1391,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3502,
-                "endTime":3502,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.01960992856942,
-                        48.43321997895583
-                    ],
-                    [
-                        10.02044793264079,
-                        48.43340791985559
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":6575,
-                "endTime":6575,
-                "numberOfTransfers":0
+                "currentTime":6575,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1412,9 +1412,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1557,
-                "endTime":1557,
-                "numberOfTransfers":0
+                "currentTime":1557,
+                "numberOfTransfers":0,
+                "numberOfThreads":42
             },
             "geometry":{
                 "type":"LineString",
@@ -1433,9 +1433,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2350,
-                "endTime":2350,
-                "numberOfTransfers":0
+                "currentTime":2350,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -1454,9 +1454,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3859,
-                "endTime":3865,
-                "numberOfTransfers":0
+                "currentTime":3865,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -1475,9 +1475,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1900,
-                "endTime":1900,
-                "numberOfTransfers":0
+                "currentTime":1900,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -1496,9 +1496,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3558,
-                "endTime":3558,
-                "numberOfTransfers":0
+                "currentTime":3558,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -1517,9 +1517,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1394,
-                "endTime":1394,
-                "numberOfTransfers":0
+                "currentTime":1394,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -1538,9 +1538,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1746,
-                "endTime":1746,
-                "numberOfTransfers":0
+                "currentTime":1746,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -1559,9 +1559,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3504,
-                "endTime":3504,
-                "numberOfTransfers":0
+                "currentTime":3504,
+                "numberOfTransfers":0,
+                "numberOfThreads":20
             },
             "geometry":{
                 "type":"LineString",
@@ -1580,72 +1580,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4001,
-                "endTime":4001,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.972928873589535,
-                        48.35149493109051
-                    ],
-                    [
-                        9.9730749049725,
-                        48.35102293679915
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1999,
-                "endTime":1999,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.007743947381018,
-                        48.38130097943472
-                    ],
-                    [
-                        10.007782876665507,
-                        48.38092584269328
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":6908,
-                "endTime":6908,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.891459939437954,
-                        48.376463876138565
-                    ],
-                    [
-                        9.878837910566581,
-                        48.36391784319098
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3454,
-                "endTime":3454,
-                "numberOfTransfers":0
+                "currentTime":3454,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1664,20 +1601,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1983,
-                "endTime":1983,
-                "numberOfTransfers":0
+                "currentTime":6908,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.961684829630364,
-                        48.38489290442078
+                        9.891459939437954,
+                        48.376463876138565
                     ],
                     [
-                        9.959638900152719,
-                        48.38445983941391
+                        9.878837910566581,
+                        48.36391784319098
                     ]
                 ]
             }
@@ -1685,9 +1622,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6397,
-                "endTime":6397,
-                "numberOfTransfers":0
+                "currentTime":1999,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.007743947381018,
+                        48.38130097943472
+                    ],
+                    [
+                        10.007782876665507,
+                        48.38092584269328
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4001,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.972928873589535,
+                        48.35149493109051
+                    ],
+                    [
+                        9.9730749049725,
+                        48.35102293679915
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":6397,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1706,9 +1685,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":140,
-                "endTime":146,
-                "numberOfTransfers":0
+                "currentTime":1983,
+                "numberOfTransfers":0,
+                "numberOfThreads":35
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.961684829630364,
+                        48.38489290442078
+                    ],
+                    [
+                        9.959638900152719,
+                        48.38445983941391
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":146,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1727,30 +1727,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3635,
-                "endTime":3635,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.949059820526685,
-                        48.36965087882394
-                    ],
-                    [
-                        9.94381889575315,
-                        48.36714599357126
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":417,
-                "endTime":417,
-                "numberOfTransfers":0
+                "currentTime":417,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1769,9 +1748,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1166,
-                "endTime":1166,
-                "numberOfTransfers":0
+                "currentTime":3635,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.949059820526685,
+                        48.36965087882394
+                    ],
+                    [
+                        9.94381889575315,
+                        48.36714599357126
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1166,
+                "numberOfTransfers":0,
+                "numberOfThreads":16
             },
             "geometry":{
                 "type":"LineString",
@@ -1790,9 +1790,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2181,
-                "endTime":2181,
-                "numberOfTransfers":0
+                "currentTime":3113,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.01129098261798,
+                        48.37073884987993
+                    ],
+                    [
+                        10.01096688235477,
+                        48.36692694649682
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2181,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1811,30 +1832,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3113,
-                "endTime":3113,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.01129098261798,
-                        48.37073884987993
-                    ],
-                    [
-                        10.01096688235477,
-                        48.36692694649682
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":140,
-                "endTime":151,
-                "numberOfTransfers":0
+                "currentTime":151,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -1853,30 +1853,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1305,
-                "endTime":1305,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.97361898363275,
-                        48.389799856911594
-                    ],
-                    [
-                        9.970559961435795,
-                        48.38842988137372
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2158,
-                "endTime":2158,
-                "numberOfTransfers":0
+                "currentTime":2158,
+                "numberOfTransfers":0,
+                "numberOfThreads":25
             },
             "geometry":{
                 "type":"LineString",
@@ -1895,9 +1874,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1324,
-                "endTime":1324,
-                "numberOfTransfers":0
+                "currentTime":1305,
+                "numberOfTransfers":0,
+                "numberOfThreads":88
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.97361898363275,
+                        48.389799856911594
+                    ],
+                    [
+                        9.970559961435795,
+                        48.38842988137372
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1324,
+                "numberOfTransfers":0,
+                "numberOfThreads":19
             },
             "geometry":{
                 "type":"LineString",
@@ -1916,9 +1916,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":765,
-                "endTime":765,
-                "numberOfTransfers":0
+                "currentTime":765,
+                "numberOfTransfers":0,
+                "numberOfThreads":32
             },
             "geometry":{
                 "type":"LineString",
@@ -1937,9 +1937,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2922,
-                "endTime":2922,
-                "numberOfTransfers":0
+                "currentTime":2922,
+                "numberOfTransfers":0,
+                "numberOfThreads":18
             },
             "geometry":{
                 "type":"LineString",
@@ -1958,30 +1958,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2667,
-                "endTime":2667,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.964358843066368,
-                        48.3853799861382
-                    ],
-                    [
-                        9.955751932168422,
-                        48.375050873496775
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4904,
-                "endTime":4904,
-                "numberOfTransfers":0
+                "currentTime":4904,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -2000,9 +1979,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2882,
-                "endTime":2882,
-                "numberOfTransfers":0
+                "currentTime":2667,
+                "numberOfTransfers":0,
+                "numberOfThreads":42
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.964358843066368,
+                        48.3853799861382
+                    ],
+                    [
+                        9.955751932168422,
+                        48.375050873496775
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2882,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -2021,9 +2021,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3747,
-                "endTime":3747,
-                "numberOfTransfers":0
+                "currentTime":3747,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2042,9 +2042,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3069,
-                "endTime":3069,
-                "numberOfTransfers":0
+                "currentTime":3069,
+                "numberOfTransfers":0,
+                "numberOfThreads":27
             },
             "geometry":{
                 "type":"LineString",
@@ -2063,9 +2063,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5069,
-                "endTime":5069,
-                "numberOfTransfers":0
+                "currentTime":5069,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -2084,30 +2084,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1555,
-                "endTime":1555,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.980099871309843,
-                        48.40618983073957
-                    ],
-                    [
-                        9.983809888001007,
-                        48.41804892014076
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2984,
-                "endTime":2984,
-                "numberOfTransfers":0
+                "currentTime":2984,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2126,20 +2105,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1898,
-                "endTime":1898,
-                "numberOfTransfers":0
+                "currentTime":1555,
+                "numberOfTransfers":0,
+                "numberOfThreads":28
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        10.016483851145592,
-                        48.39575883140621
+                        9.980099871309843,
+                        48.40618983073957
                     ],
                     [
-                        10.016555935514479,
-                        48.39574486156728
+                        9.983809888001007,
+                        48.41804892014076
                     ]
                 ]
             }
@@ -2147,9 +2126,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5033,
-                "endTime":5033,
-                "numberOfTransfers":0
+                "currentTime":5033,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2168,9 +2147,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2336,
-                "endTime":2336,
-                "numberOfTransfers":0
+                "currentTime":1898,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.016483851145592,
+                        48.39575883140621
+                    ],
+                    [
+                        10.016555935514479,
+                        48.39574486156728
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":779,
+                "numberOfTransfers":0,
+                "numberOfThreads":15
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.994939938074499,
+                        48.40488989066086
+                    ],
+                    [
+                        9.994979984946102,
+                        48.4049399958165
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2336,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -2189,30 +2210,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":779,
-                "endTime":779,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.994939938074499,
-                        48.40488989066086
-                    ],
-                    [
-                        9.994979984946102,
-                        48.4049399958165
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1799,
-                "endTime":1799,
-                "numberOfTransfers":0
+                "currentTime":1799,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2231,9 +2231,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":716,
-                "endTime":716,
-                "numberOfTransfers":0
+                "currentTime":716,
+                "numberOfTransfers":0,
+                "numberOfThreads":16
             },
             "geometry":{
                 "type":"LineString",
@@ -2252,9 +2252,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4214,
-                "endTime":4214,
-                "numberOfTransfers":0
+                "currentTime":4214,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -2273,51 +2273,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1644,
-                "endTime":1644,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.00965185485002,
-                        48.39447397875355
-                    ],
-                    [
-                        10.010258890917724,
-                        48.39422196285923
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2409,
-                "endTime":2409,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.95303898944793,
-                        48.38179290402963
-                    ],
-                    [
-                        9.95300788327324,
-                        48.38184189159815
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2357,
-                "endTime":2357,
-                "numberOfTransfers":0
+                "currentTime":2357,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2336,9 +2294,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3205,
-                "endTime":3205,
-                "numberOfTransfers":0
+                "currentTime":2409,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.95303898944793,
+                        48.38179290402963
+                    ],
+                    [
+                        9.95300788327324,
+                        48.38184189159815
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1644,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.00965185485002,
+                        48.39447397875355
+                    ],
+                    [
+                        10.010258890917724,
+                        48.39422196285923
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3205,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2357,9 +2357,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":799,
-                "endTime":799,
-                "numberOfTransfers":0
+                "currentTime":799,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2378,9 +2378,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2835,
-                "endTime":2835,
-                "numberOfTransfers":0
+                "currentTime":2835,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -2399,9 +2399,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5251,
-                "endTime":5251,
-                "numberOfTransfers":0
+                "currentTime":5251,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -2420,51 +2420,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":775,
-                "endTime":775,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.992793984550103,
-                        48.40195994977564
-                    ],
-                    [
-                        9.994939938074499,
-                        48.40488989066086
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2680,
-                "endTime":2680,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.956816992688559,
-                        48.42477381433786
-                    ],
-                    [
-                        9.956788866746177,
-                        48.424903826972184
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1577,
-                "endTime":1577,
-                "numberOfTransfers":0
+                "currentTime":1577,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2483,20 +2441,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3724,
-                "endTime":3724,
-                "numberOfTransfers":0
+                "currentTime":2680,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.954999982304871,
-                        48.362145908820914
+                        9.956816992688559,
+                        48.42477381433786
                     ],
                     [
-                        9.95494093645232,
-                        48.3621408796789
+                        9.956788866746177,
+                        48.424903826972184
                     ]
                 ]
             }
@@ -2504,9 +2462,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1199,
-                "endTime":1199,
-                "numberOfTransfers":0
+                "currentTime":775,
+                "numberOfTransfers":0,
+                "numberOfThreads":16
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.992793984550103,
+                        48.40195994977564
+                    ],
+                    [
+                        9.994939938074499,
+                        48.40488989066086
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1199,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2525,20 +2504,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6646,
-                "endTime":6646,
-                "numberOfTransfers":0
+                "currentTime":3724,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.900161845240634,
-                        48.35283882959572
+                        9.954999982304871,
+                        48.362145908820914
                     ],
                     [
-                        9.89513084058011,
-                        48.35390389011585
+                        9.95494093645232,
+                        48.3621408796789
                     ]
                 ]
             }
@@ -2546,9 +2525,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3325,
-                "endTime":3325,
-                "numberOfTransfers":0
+                "currentTime":3325,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2567,9 +2546,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5,
-                "endTime":5,
-                "numberOfTransfers":0
+                "currentTime":6646,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.900161845240634,
+                        48.35283882959572
+                    ],
+                    [
+                        9.89513084058011,
+                        48.35390389011585
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":5,
+                "numberOfTransfers":0,
+                "numberOfThreads":74
             },
             "geometry":{
                 "type":"LineString",
@@ -2588,9 +2588,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2477,
-                "endTime":2477,
-                "numberOfTransfers":0
+                "currentTime":2477,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -2609,30 +2609,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1869,
-                "endTime":1869,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.964358843066368,
-                        48.3853799861382
-                    ],
-                    [
-                        9.961684829630364,
-                        48.38489290442078
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2195,
-                "endTime":2195,
-                "numberOfTransfers":0
+                "currentTime":2195,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2651,9 +2630,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1794,
-                "endTime":1794,
-                "numberOfTransfers":0
+                "currentTime":1869,
+                "numberOfTransfers":0,
+                "numberOfThreads":36
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.964358843066368,
+                        48.3853799861382
+                    ],
+                    [
+                        9.961684829630364,
+                        48.38489290442078
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1794,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -2672,9 +2672,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3656,
-                "endTime":3656,
-                "numberOfTransfers":0
+                "currentTime":3656,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2693,9 +2693,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2748,
-                "endTime":2748,
-                "numberOfTransfers":0
+                "currentTime":2748,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2714,30 +2714,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2944,
-                "endTime":2944,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.032917969664588,
-                        48.406779916736035
-                    ],
-                    [
-                        10.033032894872864,
-                        48.406834864769166
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3429,
-                "endTime":3429,
-                "numberOfTransfers":0
+                "currentTime":3429,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -2756,9 +2735,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4711,
-                "endTime":4711,
-                "numberOfTransfers":0
+                "currentTime":2944,
+                "numberOfTransfers":0,
+                "numberOfThreads":13
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.032917969664588,
+                        48.406779916736035
+                    ],
+                    [
+                        10.033032894872864,
+                        48.406834864769166
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4711,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -2777,30 +2777,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":515,
-                "endTime":515,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.987999908357857,
-                        48.40115994366616
-                    ],
-                    [
-                        9.992793984550103,
-                        48.40195994977564
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3913,
-                "endTime":3913,
-                "numberOfTransfers":0
+                "currentTime":3913,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2819,9 +2798,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1353,
-                "endTime":1353,
-                "numberOfTransfers":0
+                "currentTime":515,
+                "numberOfTransfers":0,
+                "numberOfThreads":56
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.987999908357857,
+                        48.40115994366616
+                    ],
+                    [
+                        9.992793984550103,
+                        48.40195994977564
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1353,
+                "numberOfTransfers":0,
+                "numberOfThreads":9
             },
             "geometry":{
                 "type":"LineString",
@@ -2840,9 +2840,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4362,
-                "endTime":4362,
-                "numberOfTransfers":0
+                "currentTime":4362,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2861,9 +2861,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2260,
-                "endTime":2260,
-                "numberOfTransfers":0
+                "currentTime":2260,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2882,9 +2882,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6366,
-                "endTime":6366,
-                "numberOfTransfers":0
+                "currentTime":2797,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.95635989955872,
+                        48.42117592888719
+                    ],
+                    [
+                        9.950291960320442,
+                        48.42354893886035
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":6366,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -2903,51 +2924,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2797,
-                "endTime":2797,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.95635989955872,
-                        48.42117592888719
-                    ],
-                    [
-                        9.950291960320442,
-                        48.42354893886035
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2473,
-                "endTime":2473,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.962839855913218,
-                        48.41452982458166
-                    ],
-                    [
-                        9.956342949487484,
-                        48.42189695884057
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4024,
-                "endTime":4024,
-                "numberOfTransfers":0
+                "currentTime":4024,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -2966,9 +2945,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1557,
-                "endTime":1557,
-                "numberOfTransfers":0
+                "currentTime":2473,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.962839855913218,
+                        48.41452982458166
+                    ],
+                    [
+                        9.956342949487484,
+                        48.42189695884057
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1557,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -2987,9 +2987,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3701,
-                "endTime":3701,
-                "numberOfTransfers":0
+                "currentTime":3701,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -3008,9 +3008,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3929,
-                "endTime":3929,
-                "numberOfTransfers":0
+                "currentTime":3929,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -3029,9 +3029,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3067,
-                "endTime":3067,
-                "numberOfTransfers":0
+                "currentTime":3067,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -3050,9 +3050,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3870,
-                "endTime":3870,
-                "numberOfTransfers":0
+                "currentTime":3870,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3071,9 +3071,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1845,
-                "endTime":1845,
-                "numberOfTransfers":0
+                "currentTime":1845,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3092,9 +3092,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1540,
-                "endTime":1540,
-                "numberOfTransfers":0
+                "currentTime":1540,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3113,9 +3113,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3391,
-                "endTime":3391,
-                "numberOfTransfers":0
+                "currentTime":3391,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -3134,9 +3134,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3469,
-                "endTime":3469,
-                "numberOfTransfers":0
+                "currentTime":3469,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -3155,30 +3155,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":407,
-                "endTime":407,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.984123929980187,
-                        48.399368824050626
-                    ],
-                    [
-                        9.980819969940631,
-                        48.39477982509389
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1003,
-                "endTime":1003,
-                "numberOfTransfers":0
+                "currentTime":1003,
+                "numberOfTransfers":0,
+                "numberOfThreads":34
             },
             "geometry":{
                 "type":"LineString",
@@ -3197,9 +3176,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5461,
-                "endTime":5461,
-                "numberOfTransfers":0
+                "currentTime":407,
+                "numberOfTransfers":0,
+                "numberOfThreads":138
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.980819969940631,
+                        48.39477982509389
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":5461,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3218,51 +3218,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":140,
-                "endTime":162,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.984123929980187,
-                        48.399368824050626
-                    ],
-                    [
-                        9.9839298423513,
-                        48.39731991434067
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1694,
-                "endTime":1694,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.00318884856676,
-                        48.412469925265086
-                    ],
-                    [
-                        10.003878958609976,
-                        48.414001950934576
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":935,
-                "endTime":935,
-                "numberOfTransfers":0
+                "currentTime":935,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3281,9 +3239,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2187,
-                "endTime":2187,
-                "numberOfTransfers":0
+                "currentTime":1694,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.00318884856676,
+                        48.412469925265086
+                    ],
+                    [
+                        10.003878958609976,
+                        48.414001950934576
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":162,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.9839298423513,
+                        48.39731991434067
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2187,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3302,9 +3302,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2091,
-                "endTime":2091,
-                "numberOfTransfers":0
+                "currentTime":2091,
+                "numberOfTransfers":0,
+                "numberOfThreads":15
             },
             "geometry":{
                 "type":"LineString",
@@ -3323,30 +3323,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2992,
-                "endTime":2992,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.942697955877287,
-                        48.419706860625155
-                    ],
-                    [
-                        9.94271993509054,
-                        48.41977298452943
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3272,
-                "endTime":3272,
-                "numberOfTransfers":0
+                "currentTime":3272,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3365,9 +3344,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3198,
-                "endTime":3198,
-                "numberOfTransfers":0
+                "currentTime":2992,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.942697955877287,
+                        48.419706860625155
+                    ],
+                    [
+                        9.94271993509054,
+                        48.41977298452943
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3198,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -3386,51 +3386,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2173,
-                "endTime":2173,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.959638900152719,
-                        48.38445983941391
-                    ],
-                    [
-                        9.956179968033283,
-                        48.38381983452633
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2035,
-                "endTime":2035,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.953291936664849,
-                        48.398950846469795
-                    ],
-                    [
-                        9.94880799089688,
-                        48.396408894577824
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2360,
-                "endTime":2360,
-                "numberOfTransfers":0
+                "currentTime":2360,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3449,9 +3407,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2238,
-                "endTime":2238,
-                "numberOfTransfers":0
+                "currentTime":2035,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.953291936664849,
+                        48.398950846469795
+                    ],
+                    [
+                        9.94880799089688,
+                        48.396408894577824
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2173,
+                "numberOfTransfers":0,
+                "numberOfThreads":34
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.959638900152719,
+                        48.38445983941391
+                    ],
+                    [
+                        9.956179968033283,
+                        48.38381983452633
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2238,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3470,9 +3470,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3578,
-                "endTime":3578,
-                "numberOfTransfers":0
+                "currentTime":3578,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3491,9 +3491,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3456,
-                "endTime":3456,
-                "numberOfTransfers":0
+                "currentTime":3456,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -3512,9 +3512,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2288,
-                "endTime":2288,
-                "numberOfTransfers":0
+                "currentTime":2288,
+                "numberOfTransfers":0,
+                "numberOfThreads":9
             },
             "geometry":{
                 "type":"LineString",
@@ -3533,9 +3533,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3198,
-                "endTime":3198,
-                "numberOfTransfers":0
+                "currentTime":3198,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -3554,30 +3554,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1862,
-                "endTime":1862,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.955501965183808,
-                        48.40013083219821
-                    ],
-                    [
-                        9.95005987472966,
-                        48.40046089292603
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1339,
-                "endTime":1339,
-                "numberOfTransfers":0
+                "currentTime":1339,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3596,9 +3575,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3722,
-                "endTime":3722,
-                "numberOfTransfers":0
+                "currentTime":1862,
+                "numberOfTransfers":0,
+                "numberOfThreads":23
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.955501965183808,
+                        48.40013083219821
+                    ],
+                    [
+                        9.95005987472966,
+                        48.40046089292603
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3722,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3617,9 +3617,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":968,
-                "endTime":968,
-                "numberOfTransfers":0
+                "currentTime":968,
+                "numberOfTransfers":0,
+                "numberOfThreads":50
             },
             "geometry":{
                 "type":"LineString",
@@ -3638,9 +3638,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2296,
-                "endTime":2296,
-                "numberOfTransfers":0
+                "currentTime":2296,
+                "numberOfTransfers":0,
+                "numberOfThreads":18
             },
             "geometry":{
                 "type":"LineString",
@@ -3659,30 +3659,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":905,
-                "endTime":905,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.995830841269289,
-                        48.39651599667629
-                    ],
-                    [
-                        9.998092837589073,
-                        48.39470997589923
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1937,
-                "endTime":1937,
-                "numberOfTransfers":0
+                "currentTime":1937,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3701,9 +3680,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2808,
-                "endTime":2808,
-                "numberOfTransfers":0
+                "currentTime":905,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.995830841269289,
+                        48.39651599667629
+                    ],
+                    [
+                        9.998092837589073,
+                        48.39470997589923
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2808,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
@@ -3722,9 +3722,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":948,
-                "endTime":948,
-                "numberOfTransfers":0
+                "currentTime":948,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -3743,9 +3743,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3073,
-                "endTime":3073,
-                "numberOfTransfers":0
+                "currentTime":3073,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3764,9 +3764,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":7083,
-                "endTime":7083,
-                "numberOfTransfers":0
+                "currentTime":7083,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3785,30 +3785,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3526,
-                "endTime":3526,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.95211698007845,
-                        48.3648519597542
-                    ],
-                    [
-                        9.952009877979977,
-                        48.36458187620152
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3955,
-                "endTime":3955,
-                "numberOfTransfers":0
+                "currentTime":3955,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -3827,9 +3806,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2265,
-                "endTime":2265,
-                "numberOfTransfers":0
+                "currentTime":3526,
+                "numberOfTransfers":0,
+                "numberOfThreads":19
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.95211698007845,
+                        48.3648519597542
+                    ],
+                    [
+                        9.952009877979977,
+                        48.36458187620152
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2265,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3848,9 +3848,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1791,
-                "endTime":1791,
-                "numberOfTransfers":0
+                "currentTime":1791,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3869,9 +3869,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4985,
-                "endTime":4985,
-                "numberOfTransfers":0
+                "currentTime":4985,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -3890,9 +3890,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3883,
-                "endTime":3883,
-                "numberOfTransfers":0
+                "currentTime":3883,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -3911,9 +3911,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":419,
-                "endTime":419,
-                "numberOfTransfers":0
+                "currentTime":419,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3932,30 +3932,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1182,
-                "endTime":1182,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.000989995918944,
-                        48.39866995957501
-                    ],
-                    [
-                        10.004099868329611,
-                        48.39827694143974
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3753,
-                "endTime":3753,
-                "numberOfTransfers":0
+                "currentTime":3753,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -3974,9 +3953,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":770,
-                "endTime":770,
-                "numberOfTransfers":0
+                "currentTime":1182,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.000989995918944,
+                        48.39866995957501
+                    ],
+                    [
+                        10.004099868329611,
+                        48.39827694143974
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":770,
+                "numberOfTransfers":0,
+                "numberOfThreads":109
             },
             "geometry":{
                 "type":"LineString",
@@ -3995,9 +3995,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1470,
-                "endTime":1470,
-                "numberOfTransfers":0
+                "currentTime":1470,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4016,9 +4016,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5164,
-                "endTime":5164,
-                "numberOfTransfers":0
+                "currentTime":5164,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
@@ -4037,9 +4037,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2712,
-                "endTime":2712,
-                "numberOfTransfers":0
+                "currentTime":2712,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -4058,9 +4058,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2423,
-                "endTime":2423,
-                "numberOfTransfers":0
+                "currentTime":2423,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -4079,9 +4079,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1709,
-                "endTime":1709,
-                "numberOfTransfers":0
+                "currentTime":1709,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -4100,9 +4100,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2189,
-                "endTime":2189,
-                "numberOfTransfers":0
+                "currentTime":2189,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -4121,9 +4121,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3335,
-                "endTime":3335,
-                "numberOfTransfers":0
+                "currentTime":3335,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4142,9 +4142,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1790,
-                "endTime":1790,
-                "numberOfTransfers":0
+                "currentTime":1790,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -4163,9 +4163,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4330,
-                "endTime":4330,
-                "numberOfTransfers":0
+                "currentTime":4330,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4184,9 +4184,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3702,
-                "endTime":3702,
-                "numberOfTransfers":0
+                "currentTime":3702,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4205,9 +4205,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":729,
-                "endTime":729,
-                "numberOfTransfers":0
+                "currentTime":729,
+                "numberOfTransfers":0,
+                "numberOfThreads":15
             },
             "geometry":{
                 "type":"LineString",
@@ -4226,9 +4226,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1605,
-                "endTime":1605,
-                "numberOfTransfers":0
+                "currentTime":1605,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -4247,9 +4247,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1722,
-                "endTime":1722,
-                "numberOfTransfers":0
+                "currentTime":1722,
+                "numberOfTransfers":0,
+                "numberOfThreads":79
             },
             "geometry":{
                 "type":"LineString",
@@ -4268,9 +4268,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3353,
-                "endTime":3353,
-                "numberOfTransfers":0
+                "currentTime":3353,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -4289,9 +4289,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1964,
-                "endTime":1964,
-                "numberOfTransfers":0
+                "currentTime":1964,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4310,9 +4310,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":891,
-                "endTime":891,
-                "numberOfTransfers":0
+                "currentTime":891,
+                "numberOfTransfers":0,
+                "numberOfThreads":106
             },
             "geometry":{
                 "type":"LineString",
@@ -4331,9 +4331,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1083,
-                "endTime":1083,
-                "numberOfTransfers":0
+                "currentTime":1083,
+                "numberOfTransfers":0,
+                "numberOfThreads":21
             },
             "geometry":{
                 "type":"LineString",
@@ -4352,9 +4352,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1838,
-                "endTime":1838,
-                "numberOfTransfers":0
+                "currentTime":1838,
+                "numberOfTransfers":0,
+                "numberOfThreads":28
             },
             "geometry":{
                 "type":"LineString",
@@ -4373,9 +4373,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1388,
-                "endTime":1388,
-                "numberOfTransfers":0
+                "currentTime":1388,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -4394,9 +4394,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":591,
-                "endTime":591,
-                "numberOfTransfers":0
+                "currentTime":591,
+                "numberOfTransfers":0,
+                "numberOfThreads":25
             },
             "geometry":{
                 "type":"LineString",
@@ -4415,9 +4415,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3166,
-                "endTime":3166,
-                "numberOfTransfers":0
+                "currentTime":3166,
+                "numberOfTransfers":0,
+                "numberOfThreads":9
             },
             "geometry":{
                 "type":"LineString",
@@ -4436,9 +4436,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1419,
-                "endTime":1419,
-                "numberOfTransfers":0
+                "currentTime":1419,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4457,30 +4457,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3794,
-                "endTime":3794,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.942482820357743,
-                        48.36644694283113
-                    ],
-                    [
-                        9.941816924702009,
-                        48.36570598257421
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3201,
-                "endTime":3201,
-                "numberOfTransfers":0
+                "currentTime":3201,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -4499,9 +4478,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1686,
-                "endTime":1686,
-                "numberOfTransfers":0
+                "currentTime":3794,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.942482820357743,
+                        48.36644694283113
+                    ],
+                    [
+                        9.941816924702009,
+                        48.36570598257421
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1686,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4520,9 +4520,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1208,
-                "endTime":1208,
-                "numberOfTransfers":0
+                "currentTime":1208,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -4541,9 +4541,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2689,
-                "endTime":2689,
-                "numberOfTransfers":0
+                "currentTime":2689,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4562,30 +4562,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1276,
-                "endTime":1276,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.97187983181804,
-                        48.406023869053065
-                    ],
-                    [
-                        9.9666398383671,
-                        48.40860996563606
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2651,
-                "endTime":2651,
-                "numberOfTransfers":0
+                "currentTime":2651,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -4604,20 +4583,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3645,
-                "endTime":3645,
-                "numberOfTransfers":0
+                "currentTime":1276,
+                "numberOfTransfers":0,
+                "numberOfThreads":60
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        10.039764867121686,
-                        48.4102449955846
+                        9.97187983181804,
+                        48.406023869053065
                     ],
                     [
-                        10.043753908062442,
-                        48.411837929751826
+                        9.9666398383671,
+                        48.40860996563606
                     ]
                 ]
             }
@@ -4625,9 +4604,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1114,
-                "endTime":1114,
-                "numberOfTransfers":0
+                "currentTime":1114,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -4646,20 +4625,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1722,
-                "endTime":1722,
-                "numberOfTransfers":0
+                "currentTime":3645,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.955501965183808,
-                        48.40013083219821
+                        10.039764867121686,
+                        48.4102449955846
                     ],
                     [
-                        9.953291936664849,
-                        48.398950846469795
+                        10.043753908062442,
+                        48.411837929751826
                     ]
                 ]
             }
@@ -4667,9 +4646,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2128,
-                "endTime":2128,
-                "numberOfTransfers":0
+                "currentTime":2128,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4688,9 +4667,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1616,
-                "endTime":1616,
-                "numberOfTransfers":0
+                "currentTime":1722,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.955501965183808,
+                        48.40013083219821
+                    ],
+                    [
+                        9.953291936664849,
+                        48.398950846469795
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1616,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4709,30 +4709,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1511,
-                "endTime":1511,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.002759881379303,
-                        48.40961598030364
-                    ],
-                    [
-                        10.00517684977897,
-                        48.41109883214009
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3293,
-                "endTime":3293,
-                "numberOfTransfers":0
+                "currentTime":3293,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -4751,9 +4730,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1219,
-                "endTime":1219,
-                "numberOfTransfers":0
+                "currentTime":1511,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.002759881379303,
+                        48.40961598030364
+                    ],
+                    [
+                        10.00517684977897,
+                        48.41109883214009
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1219,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4772,9 +4772,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2097,
-                "endTime":2097,
-                "numberOfTransfers":0
+                "currentTime":2097,
+                "numberOfTransfers":0,
+                "numberOfThreads":26
             },
             "geometry":{
                 "type":"LineString",
@@ -4793,9 +4793,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1685,
-                "endTime":1685,
-                "numberOfTransfers":0
+                "currentTime":1685,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -4814,9 +4814,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3521,
-                "endTime":3521,
-                "numberOfTransfers":0
+                "currentTime":3521,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4835,9 +4835,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2199,
-                "endTime":2199,
-                "numberOfTransfers":0
+                "currentTime":2199,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4856,9 +4856,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":850,
-                "endTime":850,
-                "numberOfTransfers":0
+                "currentTime":850,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4877,9 +4877,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1087,
-                "endTime":1087,
-                "numberOfTransfers":0
+                "currentTime":1087,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4898,9 +4898,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1394,
-                "endTime":1394,
-                "numberOfTransfers":0
+                "currentTime":1394,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -4919,30 +4919,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2978,
-                "endTime":2978,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.983809888001007,
-                        48.41804892014076
-                    ],
-                    [
-                        9.968713893787129,
-                        48.43274295552246
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3438,
-                "endTime":3438,
-                "numberOfTransfers":0
+                "currentTime":3438,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -4961,9 +4940,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3224,
-                "endTime":3224,
-                "numberOfTransfers":0
+                "currentTime":2978,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.983809888001007,
+                        48.41804892014076
+                    ],
+                    [
+                        9.968713893787129,
+                        48.43274295552246
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3224,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
             },
             "geometry":{
                 "type":"LineString",
@@ -4982,9 +4982,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1909,
-                "endTime":1909,
-                "numberOfTransfers":0
+                "currentTime":1909,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5003,9 +5003,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2937,
-                "endTime":2937,
-                "numberOfTransfers":0
+                "currentTime":2937,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
             },
             "geometry":{
                 "type":"LineString",
@@ -5024,9 +5024,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3149,
-                "endTime":3149,
-                "numberOfTransfers":0
+                "currentTime":3149,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5045,9 +5045,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4289,
-                "endTime":4289,
-                "numberOfTransfers":0
+                "currentTime":4289,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5066,9 +5066,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5151,
-                "endTime":5151,
-                "numberOfTransfers":0
+                "currentTime":5151,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5087,9 +5087,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":900,
-                "endTime":900,
-                "numberOfTransfers":0
+                "currentTime":900,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5108,30 +5108,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":719,
-                "endTime":719,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.99407697455757,
-                        48.39758794898364
-                    ],
-                    [
-                        9.995794892217104,
-                        48.39645993105605
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2308,
-                "endTime":2308,
-                "numberOfTransfers":0
+                "currentTime":2308,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5150,9 +5129,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2322,
-                "endTime":2322,
-                "numberOfTransfers":0
+                "currentTime":719,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.99407697455757,
+                        48.39758794898364
+                    ],
+                    [
+                        9.995794892217104,
+                        48.39645993105605
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":157,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.9839298423513,
+                        48.39738994979985
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2322,
+                "numberOfTransfers":0,
+                "numberOfThreads":23
             },
             "geometry":{
                 "type":"LineString",
@@ -5171,30 +5192,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":140,
-                "endTime":157,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.984123929980187,
-                        48.399368824050626
-                    ],
-                    [
-                        9.9839298423513,
-                        48.39738994979985
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2160,
-                "endTime":2160,
-                "numberOfTransfers":0
+                "currentTime":2160,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5213,30 +5213,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1471,
-                "endTime":1471,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.963869898703766,
-                        48.394409903758984
-                    ],
-                    [
-                        9.961093998575821,
-                        48.39453097569639
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4317,
-                "endTime":4317,
-                "numberOfTransfers":0
+                "currentTime":4317,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5255,9 +5234,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3488,
-                "endTime":3488,
-                "numberOfTransfers":0
+                "currentTime":1471,
+                "numberOfTransfers":0,
+                "numberOfThreads":13
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.963869898703766,
+                        48.394409903758984
+                    ],
+                    [
+                        9.961093998575821,
+                        48.39453097569639
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3488,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5276,9 +5276,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2364,
-                "endTime":2364,
-                "numberOfTransfers":0
+                "currentTime":2364,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5297,9 +5297,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2129,
-                "endTime":2129,
-                "numberOfTransfers":0
+                "currentTime":2129,
+                "numberOfTransfers":0,
+                "numberOfThreads":19
             },
             "geometry":{
                 "type":"LineString",
@@ -5318,9 +5318,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2080,
-                "endTime":2080,
-                "numberOfTransfers":0
+                "currentTime":2080,
+                "numberOfTransfers":0,
+                "numberOfThreads":19
             },
             "geometry":{
                 "type":"LineString",
@@ -5339,9 +5339,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4340,
-                "endTime":4340,
-                "numberOfTransfers":0
+                "currentTime":4340,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5360,30 +5360,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1566,
-                "endTime":1566,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.002759881379303,
-                        48.40961598030364
-                    ],
-                    [
-                        10.00318884856676,
-                        48.412469925265086
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":5011,
-                "endTime":5011,
-                "numberOfTransfers":0
+                "currentTime":5011,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5402,9 +5381,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":892,
-                "endTime":892,
-                "numberOfTransfers":0
+                "currentTime":1566,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.002759881379303,
+                        48.40961598030364
+                    ],
+                    [
+                        10.00318884856676,
+                        48.412469925265086
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":892,
+                "numberOfTransfers":0,
+                "numberOfThreads":53
             },
             "geometry":{
                 "type":"LineString",
@@ -5423,30 +5423,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6068,
-                "endTime":6068,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.939165821801852,
-                        48.33852086227807
-                    ],
-                    [
-                        9.936714953259713,
-                        48.33486989143945
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1786,
-                "endTime":1786,
-                "numberOfTransfers":0
+                "currentTime":1786,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5465,9 +5444,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":919,
-                "endTime":919,
-                "numberOfTransfers":0
+                "currentTime":6068,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.939165821801852,
+                        48.33852086227807
+                    ],
+                    [
+                        9.936714953259713,
+                        48.33486989143945
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":919,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5486,9 +5486,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4100,
-                "endTime":4100,
-                "numberOfTransfers":0
+                "currentTime":4100,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5507,9 +5507,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5022,
-                "endTime":5022,
-                "numberOfTransfers":0
+                "currentTime":5022,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5528,30 +5528,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3351,
-                "endTime":3351,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.947189911019576,
-                        48.37671998985231
-                    ],
-                    [
-                        9.941072984212779,
-                        48.373095841104444
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3734,
-                "endTime":3734,
-                "numberOfTransfers":0
+                "currentTime":3734,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5570,20 +5549,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":245,
-                "endTime":245,
-                "numberOfTransfers":0
+                "currentTime":3351,
+                "numberOfTransfers":0,
+                "numberOfThreads":20
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.984123929980187,
-                        48.399368824050626
+                        9.947189911019576,
+                        48.37671998985231
                     ],
                     [
-                        9.987845867600573,
-                        48.40117782505999
+                        9.941072984212779,
+                        48.373095841104444
                     ]
                 ]
             }
@@ -5591,30 +5570,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4053,
-                "endTime":4094,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.9764798203814,
-                        48.360419981787054
-                    ],
-                    [
-                        9.978679976880848,
-                        48.34963992274493
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1793,
-                "endTime":1793,
-                "numberOfTransfers":0
+                "currentTime":1793,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5633,9 +5591,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":766,
-                "endTime":766,
-                "numberOfTransfers":0
+                "currentTime":4094,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.9764798203814,
+                        48.360419981787054
+                    ],
+                    [
+                        9.978679976880848,
+                        48.34963992274493
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":245,
+                "numberOfTransfers":0,
+                "numberOfThreads":93
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.987845867600573,
+                        48.40117782505999
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":766,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5654,9 +5654,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2675,
-                "endTime":2675,
-                "numberOfTransfers":0
+                "currentTime":2675,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5675,51 +5675,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3292,
-                "endTime":3292,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.949108994359724,
-                        48.36968794546324
-                    ],
-                    [
-                        9.949059820526685,
-                        48.36965087882394
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4275,
-                "endTime":4275,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.941816924702009,
-                        48.36570598257421
-                    ],
-                    [
-                        9.938556923088958,
-                        48.36009085238183
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2566,
-                "endTime":2566,
-                "numberOfTransfers":0
+                "currentTime":2566,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5738,9 +5696,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2839,
-                "endTime":2839,
-                "numberOfTransfers":0
+                "currentTime":4275,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.941816924702009,
+                        48.36570598257421
+                    ],
+                    [
+                        9.938556923088958,
+                        48.36009085238183
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3292,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.949108994359724,
+                        48.36968794546324
+                    ],
+                    [
+                        9.949059820526685,
+                        48.36965087882394
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2839,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5759,30 +5759,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1843,
-                "endTime":1843,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.961349926025047,
-                        48.40872693975405
-                    ],
-                    [
-                        9.955979919939784,
-                        48.40835999865144
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3541,
-                "endTime":3541,
-                "numberOfTransfers":0
+                "currentTime":3541,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5801,9 +5780,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4053,
-                "endTime":4053,
-                "numberOfTransfers":0
+                "currentTime":1843,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.961349926025047,
+                        48.40872693975405
+                    ],
+                    [
+                        9.955979919939784,
+                        48.40835999865144
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4053,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5822,9 +5822,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3153,
-                "endTime":3153,
-                "numberOfTransfers":0
+                "currentTime":3153,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5843,30 +5843,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2498,
-                "endTime":2498,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.950096941368958,
-                        48.41389596642321
-                    ],
-                    [
-                        9.946146829712692,
-                        48.414043860451365
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3047,
-                "endTime":3047,
-                "numberOfTransfers":0
+                "currentTime":3047,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -5885,20 +5864,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3963,
-                "endTime":3963,
-                "numberOfTransfers":0
+                "currentTime":2498,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.9764798203814,
-                        48.360419981787054
+                        9.950096941368958,
+                        48.41389596642321
                     ],
                     [
-                        9.972928873589535,
-                        48.35149493109051
+                        9.946146829712692,
+                        48.414043860451365
                     ]
                 ]
             }
@@ -5906,9 +5885,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4658,
-                "endTime":4658,
-                "numberOfTransfers":0
+                "currentTime":4658,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
@@ -5927,9 +5906,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":913,
-                "endTime":913,
-                "numberOfTransfers":0
+                "currentTime":3963,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.9764798203814,
+                        48.360419981787054
+                    ],
+                    [
+                        9.972928873589535,
+                        48.35149493109051
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":913,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5948,9 +5948,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1578,
-                "endTime":1578,
-                "numberOfTransfers":0
+                "currentTime":1578,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -5969,9 +5969,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2343,
-                "endTime":2343,
-                "numberOfTransfers":0
+                "currentTime":2343,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -5990,9 +5990,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3376,
-                "endTime":3376,
-                "numberOfTransfers":0
+                "currentTime":3376,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6011,9 +6011,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":769,
-                "endTime":769,
-                "numberOfTransfers":0
+                "currentTime":769,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -6032,30 +6032,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2300,
-                "endTime":2300,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.003201887083096,
-                        48.419128881822424
-                    ],
-                    [
-                        10.005363859356132,
-                        48.422810958835726
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2940,
-                "endTime":2940,
-                "numberOfTransfers":0
+                "currentTime":2940,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6074,20 +6053,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1130,
-                "endTime":1130,
-                "numberOfTransfers":0
+                "currentTime":2300,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.990719929130076,
-                        48.40971991590529
+                        10.003201887083096,
+                        48.419128881822424
                     ],
                     [
-                        9.992189928714707,
-                        48.41134991671182
+                        10.005363859356132,
+                        48.422810958835726
                     ]
                 ]
             }
@@ -6095,9 +6074,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1020,
-                "endTime":1020,
-                "numberOfTransfers":0
+                "currentTime":1020,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6116,9 +6095,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4022,
-                "endTime":4022,
-                "numberOfTransfers":0
+                "currentTime":1130,
+                "numberOfTransfers":0,
+                "numberOfThreads":27
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.990719929130076,
+                        48.40971991590529
+                    ],
+                    [
+                        9.992189928714707,
+                        48.41134991671182
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4022,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
             },
             "geometry":{
                 "type":"LineString",
@@ -6137,9 +6137,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1045,
-                "endTime":1045,
-                "numberOfTransfers":0
+                "currentTime":1045,
+                "numberOfTransfers":0,
+                "numberOfThreads":31
             },
             "geometry":{
                 "type":"LineString",
@@ -6158,9 +6158,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2301,
-                "endTime":2301,
-                "numberOfTransfers":0
+                "currentTime":2184,
+                "numberOfTransfers":0,
+                "numberOfThreads":13
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.986892938320926,
+                        48.385051974320085
+                    ],
+                    [
+                        9.989584833150763,
+                        48.37270189164658
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2301,
+                "numberOfTransfers":0,
+                "numberOfThreads":17
             },
             "geometry":{
                 "type":"LineString",
@@ -6179,30 +6200,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2184,
-                "endTime":2184,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.986892938320926,
-                        48.385051974320085
-                    ],
-                    [
-                        9.989584833150763,
-                        48.37270189164658
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3737,
-                "endTime":3737,
-                "numberOfTransfers":0
+                "currentTime":3737,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6221,9 +6221,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1606,
-                "endTime":1606,
-                "numberOfTransfers":0
+                "currentTime":1606,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6242,51 +6242,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":705,
-                "endTime":705,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.988640844568033,
-                        48.39715097242186
-                    ],
-                    [
-                        9.99349191770312,
-                        48.39325282856642
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":763,
-                "endTime":763,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.980099871309843,
-                        48.40618983073957
-                    ],
-                    [
-                        9.976825899857861,
-                        48.40662196442385
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2516,
-                "endTime":2516,
-                "numberOfTransfers":0
+                "currentTime":2516,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6305,20 +6263,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3927,
-                "endTime":3927,
-                "numberOfTransfers":0
+                "currentTime":763,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.986619874535945,
-                        48.44290983176775
+                        9.980099871309843,
+                        48.40618983073957
                     ],
                     [
-                        9.984614923252499,
-                        48.44732597725077
+                        9.976825899857861,
+                        48.40662196442385
                     ]
                 ]
             }
@@ -6326,9 +6284,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1923,
-                "endTime":1923,
-                "numberOfTransfers":0
+                "currentTime":705,
+                "numberOfTransfers":0,
+                "numberOfThreads":45
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.988640844568033,
+                        48.39715097242186
+                    ],
+                    [
+                        9.99349191770312,
+                        48.39325282856642
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1923,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6347,9 +6326,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3346,
-                "endTime":3346,
-                "numberOfTransfers":0
+                "currentTime":3927,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.986619874535945,
+                        48.44290983176775
+                    ],
+                    [
+                        9.984614923252499,
+                        48.44732597725077
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3346,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6368,9 +6368,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1573,
-                "endTime":1573,
-                "numberOfTransfers":0
+                "currentTime":1573,
+                "numberOfTransfers":0,
+                "numberOfThreads":24
             },
             "geometry":{
                 "type":"LineString",
@@ -6389,9 +6389,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3433,
-                "endTime":3433,
-                "numberOfTransfers":0
+                "currentTime":3433,
+                "numberOfTransfers":0,
+                "numberOfThreads":9
             },
             "geometry":{
                 "type":"LineString",
@@ -6410,9 +6410,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2409,
-                "endTime":2409,
-                "numberOfTransfers":0
+                "currentTime":2409,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
             },
             "geometry":{
                 "type":"LineString",
@@ -6431,9 +6431,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2771,
-                "endTime":2771,
-                "numberOfTransfers":0
+                "currentTime":2771,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6452,30 +6452,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1586,
-                "endTime":1586,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.960297904021246,
-                        48.39219782633032
-                    ],
-                    [
-                        9.960266984111078,
-                        48.39215293658121
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3641,
-                "endTime":3641,
-                "numberOfTransfers":0
+                "currentTime":3641,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6494,9 +6473,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3096,
-                "endTime":3096,
-                "numberOfTransfers":0
+                "currentTime":1586,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.960297904021246,
+                        48.39219782633032
+                    ],
+                    [
+                        9.960266984111078,
+                        48.39215293658121
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3096,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6515,30 +6515,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3897,
-                "endTime":3897,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.952009877979977,
-                        48.36458187620152
-                    ],
-                    [
-                        9.946778825225953,
-                        48.36151391330765
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2643,
-                "endTime":2643,
-                "numberOfTransfers":0
+                "currentTime":2643,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6557,20 +6536,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2674,
-                "endTime":2674,
-                "numberOfTransfers":0
+                "currentTime":3897,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.950469842936169,
-                        48.37929993970617
+                        9.952009877979977,
+                        48.36458187620152
                     ],
                     [
-                        9.95005987472966,
-                        48.37907996130913
+                        9.946778825225953,
+                        48.36151391330765
                     ]
                 ]
             }
@@ -6578,9 +6557,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3278,
-                "endTime":3278,
-                "numberOfTransfers":0
+                "currentTime":3278,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6599,9 +6578,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3721,
-                "endTime":3721,
-                "numberOfTransfers":0
+                "currentTime":2674,
+                "numberOfTransfers":0,
+                "numberOfThreads":27
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.950469842936169,
+                        48.37929993970617
+                    ],
+                    [
+                        9.95005987472966,
+                        48.37907996130913
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3721,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6620,9 +6620,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4237,
-                "endTime":4237,
-                "numberOfTransfers":0
+                "currentTime":4237,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6641,9 +6641,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4149,
-                "endTime":4149,
-                "numberOfTransfers":0
+                "currentTime":4149,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6662,9 +6662,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1309,
-                "endTime":1309,
-                "numberOfTransfers":0
+                "currentTime":1309,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6683,51 +6683,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1253,
-                "endTime":1253,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.961729905643983,
-                        48.400599846257265
-                    ],
-                    [
-                        9.96155686590575,
-                        48.400446923087095
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1123,
-                "endTime":1123,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.994979984946102,
-                        48.4049399958165
-                    ],
-                    [
-                        10.001260824529696,
-                        48.40600785030442
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1846,
-                "endTime":1846,
-                "numberOfTransfers":0
+                "currentTime":1846,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6746,20 +6704,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2239,
-                "endTime":2239,
-                "numberOfTransfers":0
+                "currentTime":1123,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        10.007632933727644,
-                        48.40498693447531
+                        9.994979984946102,
+                        48.4049399958165
                     ],
                     [
-                        10.022450835014526,
-                        48.40210095201658
+                        10.001260824529696,
+                        48.40600785030442
                     ]
                 ]
             }
@@ -6767,9 +6725,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1412,
-                "endTime":1412,
-                "numberOfTransfers":0
+                "currentTime":1253,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.961729905643983,
+                        48.400599846257265
+                    ],
+                    [
+                        9.96155686590575,
+                        48.400446923087095
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1412,
+                "numberOfTransfers":0,
+                "numberOfThreads":24
             },
             "geometry":{
                 "type":"LineString",
@@ -6788,9 +6767,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1296,
-                "endTime":1296,
-                "numberOfTransfers":0
+                "currentTime":2239,
+                "numberOfTransfers":0,
+                "numberOfThreads":22
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.007632933727644,
+                        48.40498693447531
+                    ],
+                    [
+                        10.022450835014526,
+                        48.40210095201658
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1296,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6809,30 +6809,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1014,
-                "endTime":1014,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.998199939687549,
-                        48.39771982426315
-                    ],
-                    [
-                        10.000989995918944,
-                        48.39866995957501
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3859,
-                "endTime":3859,
-                "numberOfTransfers":0
+                "currentTime":3859,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6851,9 +6830,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":7071,
-                "endTime":7071,
-                "numberOfTransfers":0
+                "currentTime":1014,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.998199939687549,
+                        48.39771982426315
+                    ],
+                    [
+                        10.000989995918944,
+                        48.39866995957501
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":7071,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6872,9 +6872,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1945,
-                "endTime":1945,
-                "numberOfTransfers":0
+                "currentTime":1945,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6893,9 +6893,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3380,
-                "endTime":3380,
-                "numberOfTransfers":0
+                "currentTime":3380,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6914,9 +6914,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3552,
-                "endTime":3552,
-                "numberOfTransfers":0
+                "currentTime":3552,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -6935,9 +6935,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4323,
-                "endTime":4323,
-                "numberOfTransfers":0
+                "currentTime":4323,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -6956,9 +6956,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2255,
-                "endTime":2255,
-                "numberOfTransfers":0
+                "currentTime":2255,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -6977,9 +6977,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3249,
-                "endTime":3249,
-                "numberOfTransfers":0
+                "currentTime":3249,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -6998,9 +6998,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":904,
-                "endTime":904,
-                "numberOfTransfers":0
+                "currentTime":904,
+                "numberOfTransfers":0,
+                "numberOfThreads":17
             },
             "geometry":{
                 "type":"LineString",
@@ -7019,9 +7019,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3398,
-                "endTime":3398,
-                "numberOfTransfers":0
+                "currentTime":3398,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -7040,9 +7040,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3576,
-                "endTime":3576,
-                "numberOfTransfers":0
+                "currentTime":3576,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -7061,30 +7061,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1871,
-                "endTime":1871,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.957079998189508,
-                        48.41144994075857
-                    ],
-                    [
-                        9.957069939905479,
-                        48.411509917933714
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":6355,
-                "endTime":6355,
-                "numberOfTransfers":0
+                "currentTime":6355,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7103,9 +7082,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2506,
-                "endTime":2506,
-                "numberOfTransfers":0
+                "currentTime":1871,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.957079998189508,
+                        48.41144994075857
+                    ],
+                    [
+                        9.957069939905479,
+                        48.411509917933714
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2506,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -7124,9 +7124,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2120,
-                "endTime":2120,
-                "numberOfTransfers":0
+                "currentTime":2120,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7145,9 +7145,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1649,
-                "endTime":1649,
-                "numberOfTransfers":0
+                "currentTime":1649,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -7166,9 +7166,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":832,
-                "endTime":832,
-                "numberOfTransfers":0
+                "currentTime":832,
+                "numberOfTransfers":0,
+                "numberOfThreads":43
             },
             "geometry":{
                 "type":"LineString",
@@ -7187,30 +7187,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1516,
-                "endTime":1516,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.989585950737878,
-                        48.388509975116925
-                    ],
-                    [
-                        9.990230984767473,
-                        48.381421865107605
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1412,
-                "endTime":1412,
-                "numberOfTransfers":0
+                "currentTime":1412,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7229,9 +7208,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2987,
-                "endTime":2987,
-                "numberOfTransfers":0
+                "currentTime":1516,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.989585950737878,
+                        48.388509975116925
+                    ],
+                    [
+                        9.990230984767473,
+                        48.381421865107605
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2987,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -7250,9 +7250,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2194,
-                "endTime":2194,
-                "numberOfTransfers":0
+                "currentTime":2194,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -7271,9 +7271,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2582,
-                "endTime":2582,
-                "numberOfTransfers":0
+                "currentTime":2582,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -7292,9 +7292,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2249,
-                "endTime":2249,
-                "numberOfTransfers":0
+                "currentTime":2249,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -7313,30 +7313,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3031,
-                "endTime":3031,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.01489184830096,
-                        48.369641938127025
-                    ],
-                    [
-                        10.01520998809956,
-                        48.368998953007136
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1603,
-                "endTime":1603,
-                "numberOfTransfers":0
+                "currentTime":1603,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -7355,9 +7334,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1867,
-                "endTime":1867,
-                "numberOfTransfers":0
+                "currentTime":3031,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.01489184830096,
+                        48.369641938127025
+                    ],
+                    [
+                        10.01520998809956,
+                        48.368998953007136
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1867,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
             },
             "geometry":{
                 "type":"LineString",
@@ -7376,9 +7376,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2470,
-                "endTime":2470,
-                "numberOfTransfers":0
+                "currentTime":2470,
+                "numberOfTransfers":0,
+                "numberOfThreads":13
             },
             "geometry":{
                 "type":"LineString",
@@ -7397,30 +7397,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3115,
-                "endTime":3115,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.01129098261798,
-                        48.37073884987993
-                    ],
-                    [
-                        10.013654865629707,
-                        48.36723595933398
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":890,
-                "endTime":890,
-                "numberOfTransfers":0
+                "currentTime":890,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -7439,9 +7418,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3833,
-                "endTime":3833,
-                "numberOfTransfers":0
+                "currentTime":3115,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.01129098261798,
+                        48.37073884987993
+                    ],
+                    [
+                        10.013654865629707,
+                        48.36723595933398
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3833,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -7460,9 +7460,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1793,
-                "endTime":1793,
-                "numberOfTransfers":0
+                "currentTime":1793,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7481,9 +7481,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1765,
-                "endTime":1765,
-                "numberOfTransfers":0
+                "currentTime":1765,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7502,9 +7502,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2789,
-                "endTime":2789,
-                "numberOfTransfers":0
+                "currentTime":2789,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7523,9 +7523,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":410,
-                "endTime":410,
-                "numberOfTransfers":0
+                "currentTime":410,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -7544,9 +7544,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3851,
-                "endTime":3851,
-                "numberOfTransfers":0
+                "currentTime":3851,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -7565,30 +7565,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1305,
-                "endTime":1305,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.961729905643983,
-                        48.400599846257265
-                    ],
-                    [
-                        9.960532969844333,
-                        48.400323988504496
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1913,
-                "endTime":1913,
-                "numberOfTransfers":0
+                "currentTime":1913,
+                "numberOfTransfers":0,
+                "numberOfThreads":22
             },
             "geometry":{
                 "type":"LineString",
@@ -7607,9 +7586,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2653,
-                "endTime":2653,
-                "numberOfTransfers":0
+                "currentTime":1305,
+                "numberOfTransfers":0,
+                "numberOfThreads":41
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.961729905643983,
+                        48.400599846257265
+                    ],
+                    [
+                        9.960532969844333,
+                        48.400323988504496
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2653,
+                "numberOfTransfers":0,
+                "numberOfThreads":13
             },
             "geometry":{
                 "type":"LineString",
@@ -7628,9 +7628,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3616,
-                "endTime":3616,
-                "numberOfTransfers":0
+                "currentTime":3616,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -7649,9 +7649,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2447,
-                "endTime":2447,
-                "numberOfTransfers":0
+                "currentTime":2447,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -7670,9 +7670,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3318,
-                "endTime":3318,
-                "numberOfTransfers":0
+                "currentTime":3318,
+                "numberOfTransfers":0,
+                "numberOfThreads":22
             },
             "geometry":{
                 "type":"LineString",
@@ -7691,9 +7691,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1337,
-                "endTime":1337,
-                "numberOfTransfers":0
+                "currentTime":1337,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -7712,9 +7712,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2423,
-                "endTime":2423,
-                "numberOfTransfers":0
+                "currentTime":2423,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
             },
             "geometry":{
                 "type":"LineString",
@@ -7733,30 +7733,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1068,
-                "endTime":1068,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.973365850151312,
-                        48.39565694471427
-                    ],
-                    [
-                        9.968629888489021,
-                        48.39488692719237
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2640,
-                "endTime":2640,
-                "numberOfTransfers":0
+                "currentTime":2640,
+                "numberOfTransfers":0,
+                "numberOfThreads":22
             },
             "geometry":{
                 "type":"LineString",
@@ -7775,9 +7754,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":526,
-                "endTime":526,
-                "numberOfTransfers":0
+                "currentTime":1068,
+                "numberOfTransfers":0,
+                "numberOfThreads":23
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.973365850151312,
+                        48.39565694471427
+                    ],
+                    [
+                        9.968629888489021,
+                        48.39488692719237
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":526,
+                "numberOfTransfers":0,
+                "numberOfThreads":39
             },
             "geometry":{
                 "type":"LineString",
@@ -7796,9 +7796,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1128,
-                "endTime":1128,
-                "numberOfTransfers":0
+                "currentTime":1128,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7817,9 +7817,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1046,
-                "endTime":1046,
-                "numberOfTransfers":0
+                "currentTime":1046,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -7838,9 +7838,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1611,
-                "endTime":1611,
-                "numberOfTransfers":0
+                "currentTime":1611,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
             },
             "geometry":{
                 "type":"LineString",
@@ -7859,9 +7859,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4383,
-                "endTime":4383,
-                "numberOfTransfers":0
+                "currentTime":4383,
+                "numberOfTransfers":0,
+                "numberOfThreads":13
             },
             "geometry":{
                 "type":"LineString",
@@ -7880,9 +7880,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1358,
-                "endTime":1358,
-                "numberOfTransfers":0
+                "currentTime":2151,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.955009854324382,
+                        48.394849860553066
+                    ],
+                    [
+                        9.950196965415708,
+                        48.391836845692325
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1358,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -7901,30 +7922,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2151,
-                "endTime":2151,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.955009854324382,
-                        48.394849860553066
-                    ],
-                    [
-                        9.950196965415708,
-                        48.391836845692325
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3395,
-                "endTime":3395,
-                "numberOfTransfers":0
+                "currentTime":3395,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7943,9 +7943,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3397,
-                "endTime":3397,
-                "numberOfTransfers":0
+                "currentTime":3397,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -7964,9 +7964,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1583,
-                "endTime":1583,
-                "numberOfTransfers":0
+                "currentTime":1583,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -7985,9 +7985,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2628,
-                "endTime":2628,
-                "numberOfTransfers":0
+                "currentTime":2628,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -8006,9 +8006,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1238,
-                "endTime":1238,
-                "numberOfTransfers":0
+                "currentTime":1238,
+                "numberOfTransfers":0,
+                "numberOfThreads":49
             },
             "geometry":{
                 "type":"LineString",
@@ -8027,9 +8027,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2387,
-                "endTime":2387,
-                "numberOfTransfers":0
+                "currentTime":2387,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8048,9 +8048,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3134,
-                "endTime":3134,
-                "numberOfTransfers":0
+                "currentTime":3134,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -8069,9 +8069,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3221,
-                "endTime":3221,
-                "numberOfTransfers":0
+                "currentTime":3221,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8090,30 +8090,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2206,
-                "endTime":2206,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.986044875965526,
-                        48.42546690461338
-                    ],
-                    [
-                        9.98636189817701,
-                        48.426003905221904
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3523,
-                "endTime":3523,
-                "numberOfTransfers":0
+                "currentTime":3523,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8132,9 +8111,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1419,
-                "endTime":1419,
-                "numberOfTransfers":0
+                "currentTime":2206,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.986044875965526,
+                        48.42546690461338
+                    ],
+                    [
+                        9.98636189817701,
+                        48.426003905221904
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1419,
+                "numberOfTransfers":0,
+                "numberOfThreads":23
             },
             "geometry":{
                 "type":"LineString",
@@ -8153,9 +8153,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6087,
-                "endTime":6087,
-                "numberOfTransfers":0
+                "currentTime":6087,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -8174,30 +8174,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1179,
-                "endTime":1179,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.00094994904734,
-                        48.40233992939457
-                    ],
-                    [
-                        10.003469921726062,
-                        48.40090997668155
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3877,
-                "endTime":3877,
-                "numberOfTransfers":0
+                "currentTime":3877,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8216,9 +8195,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1223,
-                "endTime":1223,
-                "numberOfTransfers":0
+                "currentTime":1179,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.00094994904734,
+                        48.40233992939457
+                    ],
+                    [
+                        10.003469921726062,
+                        48.40090997668155
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1223,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8237,30 +8237,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4289,
-                "endTime":4289,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.938556923088958,
-                        48.36009085238183
-                    ],
-                    [
-                        9.938293917588009,
-                        48.36008098036232
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":821,
-                "endTime":821,
-                "numberOfTransfers":0
+                "currentTime":821,
+                "numberOfTransfers":0,
+                "numberOfThreads":29
             },
             "geometry":{
                 "type":"LineString",
@@ -8279,9 +8258,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2713,
-                "endTime":2713,
-                "numberOfTransfers":0
+                "currentTime":4289,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.938556923088958,
+                        48.36009085238183
+                    ],
+                    [
+                        9.938293917588009,
+                        48.36008098036232
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2713,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8300,9 +8300,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2916,
-                "endTime":2916,
-                "numberOfTransfers":0
+                "currentTime":2916,
+                "numberOfTransfers":0,
+                "numberOfThreads":25
             },
             "geometry":{
                 "type":"LineString",
@@ -8321,9 +8321,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":586,
-                "endTime":586,
-                "numberOfTransfers":0
+                "currentTime":586,
+                "numberOfTransfers":0,
+                "numberOfThreads":31
             },
             "geometry":{
                 "type":"LineString",
@@ -8342,9 +8342,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5700,
-                "endTime":5700,
-                "numberOfTransfers":0
+                "currentTime":5700,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -8363,9 +8363,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2405,
-                "endTime":2405,
-                "numberOfTransfers":0
+                "currentTime":2405,
+                "numberOfTransfers":0,
+                "numberOfThreads":30
             },
             "geometry":{
                 "type":"LineString",
@@ -8384,9 +8384,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3215,
-                "endTime":3215,
-                "numberOfTransfers":0
+                "currentTime":3215,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -8405,9 +8405,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2938,
-                "endTime":2938,
-                "numberOfTransfers":0
+                "currentTime":2938,
+                "numberOfTransfers":0,
+                "numberOfThreads":17
             },
             "geometry":{
                 "type":"LineString",
@@ -8426,9 +8426,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4174,
-                "endTime":4174,
-                "numberOfTransfers":0
+                "currentTime":4174,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -8447,9 +8447,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1724,
-                "endTime":1724,
-                "numberOfTransfers":0
+                "currentTime":1724,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8468,9 +8468,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1137,
-                "endTime":1137,
-                "numberOfTransfers":0
+                "currentTime":1137,
+                "numberOfTransfers":0,
+                "numberOfThreads":16
             },
             "geometry":{
                 "type":"LineString",
@@ -8489,9 +8489,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1800,
-                "endTime":1800,
-                "numberOfTransfers":0
+                "currentTime":1800,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -8510,30 +8510,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2125,
-                "endTime":2125,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.951882845577959,
-                        48.395116963873434
-                    ],
-                    [
-                        9.948839842129644,
-                        48.39504990864657
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1464,
-                "endTime":1464,
-                "numberOfTransfers":0
+                "currentTime":1464,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8552,9 +8531,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2328,
-                "endTime":2328,
-                "numberOfTransfers":0
+                "currentTime":2125,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.951882845577959,
+                        48.395116963873434
+                    ],
+                    [
+                        9.948839842129644,
+                        48.39504990864657
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2328,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -8573,9 +8573,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3888,
-                "endTime":3888,
-                "numberOfTransfers":0
+                "currentTime":3888,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -8594,9 +8594,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2475,
-                "endTime":2475,
-                "numberOfTransfers":0
+                "currentTime":2475,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8615,9 +8615,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":965,
-                "endTime":965,
-                "numberOfTransfers":0
+                "currentTime":965,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8636,9 +8636,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3744,
-                "endTime":3744,
-                "numberOfTransfers":0
+                "currentTime":3744,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -8657,9 +8657,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5432,
-                "endTime":5432,
-                "numberOfTransfers":0
+                "currentTime":5432,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -8678,9 +8678,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1109,
-                "endTime":1109,
-                "numberOfTransfers":0
+                "currentTime":1109,
+                "numberOfTransfers":0,
+                "numberOfThreads":89
             },
             "geometry":{
                 "type":"LineString",
@@ -8699,30 +8699,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1681,
-                "endTime":1681,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.006926991200306,
-                        48.40510092836099
-                    ],
-                    [
-                        10.008938834270959,
-                        48.40843785722042
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4343,
-                "endTime":4343,
-                "numberOfTransfers":0
+                "currentTime":4343,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8741,20 +8720,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2190,
-                "endTime":2190,
-                "numberOfTransfers":0
+                "currentTime":1681,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.950196965415708,
-                        48.391836845692325
+                        10.006926991200306,
+                        48.40510092836099
                     ],
                     [
-                        9.949444829287637,
-                        48.39182399344051
+                        10.008938834270959,
+                        48.40843785722042
                     ]
                 ]
             }
@@ -8762,9 +8741,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1854,
-                "endTime":1854,
-                "numberOfTransfers":0
+                "currentTime":1854,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -8783,20 +8762,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1564,
-                "endTime":1564,
-                "numberOfTransfers":0
+                "currentTime":2190,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.960532969844333,
-                        48.400323988504496
+                        9.950196965415708,
+                        48.391836845692325
                     ],
                     [
-                        9.955648927889367,
-                        48.4001678988375
+                        9.949444829287637,
+                        48.39182399344051
                     ]
                 ]
             }
@@ -8804,9 +8783,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2910,
-                "endTime":2910,
-                "numberOfTransfers":0
+                "currentTime":2910,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -8825,9 +8804,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":929,
-                "endTime":929,
-                "numberOfTransfers":0
+                "currentTime":1564,
+                "numberOfTransfers":0,
+                "numberOfThreads":32
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.960532969844333,
+                        48.400323988504496
+                    ],
+                    [
+                        9.955648927889367,
+                        48.4001678988375
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":929,
+                "numberOfTransfers":0,
+                "numberOfThreads":61
             },
             "geometry":{
                 "type":"LineString",
@@ -8846,9 +8846,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1266,
-                "endTime":1266,
-                "numberOfTransfers":0
+                "currentTime":1266,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -8867,9 +8867,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1834,
-                "endTime":1834,
-                "numberOfTransfers":0
+                "currentTime":1834,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
@@ -8888,9 +8888,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5748,
-                "endTime":5748,
-                "numberOfTransfers":0
+                "currentTime":5748,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -8909,30 +8909,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1245,
-                "endTime":1245,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.994979984946102,
-                        48.4049399958165
-                    ],
-                    [
-                        10.00162087384509,
-                        48.408745938734995
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":978,
-                "endTime":978,
-                "numberOfTransfers":0
+                "currentTime":978,
+                "numberOfTransfers":0,
+                "numberOfThreads":28
             },
             "geometry":{
                 "type":"LineString",
@@ -8951,9 +8930,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1343,
-                "endTime":1343,
-                "numberOfTransfers":0
+                "currentTime":1245,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.994979984946102,
+                        48.4049399958165
+                    ],
+                    [
+                        10.00162087384509,
+                        48.408745938734995
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1343,
+                "numberOfTransfers":0,
+                "numberOfThreads":34
             },
             "geometry":{
                 "type":"LineString",
@@ -8972,9 +8972,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":848,
-                "endTime":848,
-                "numberOfTransfers":0
+                "currentTime":848,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
             },
             "geometry":{
                 "type":"LineString",
@@ -8993,9 +8993,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3795,
-                "endTime":3795,
-                "numberOfTransfers":0
+                "currentTime":3795,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9014,9 +9014,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1842,
-                "endTime":1842,
-                "numberOfTransfers":0
+                "currentTime":1842,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
             },
             "geometry":{
                 "type":"LineString",
@@ -9035,9 +9035,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4632,
-                "endTime":4632,
-                "numberOfTransfers":0
+                "currentTime":4632,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -9056,9 +9056,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":576,
-                "endTime":576,
-                "numberOfTransfers":0
+                "currentTime":576,
+                "numberOfTransfers":0,
+                "numberOfThreads":115
             },
             "geometry":{
                 "type":"LineString",
@@ -9077,9 +9077,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2802,
-                "endTime":2802,
-                "numberOfTransfers":0
+                "currentTime":2802,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -9098,9 +9098,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1561,
-                "endTime":1561,
-                "numberOfTransfers":0
+                "currentTime":1561,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9119,30 +9119,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2645,
-                "endTime":2645,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        10.007057935157222,
-                        48.42214189668317
-                    ],
-                    [
-                        10.013198890086983,
-                        48.42351988159537
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2739,
-                "endTime":2739,
-                "numberOfTransfers":0
+                "currentTime":2739,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9161,9 +9140,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4842,
-                "endTime":4842,
-                "numberOfTransfers":0
+                "currentTime":2645,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        10.007057935157222,
+                        48.42214189668317
+                    ],
+                    [
+                        10.013198890086983,
+                        48.42351988159537
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4842,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9182,9 +9182,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5144,
-                "endTime":5144,
-                "numberOfTransfers":0
+                "currentTime":5144,
+                "numberOfTransfers":0,
+                "numberOfThreads":8
             },
             "geometry":{
                 "type":"LineString",
@@ -9203,9 +9203,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1778,
-                "endTime":1778,
-                "numberOfTransfers":0
+                "currentTime":1778,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
             },
             "geometry":{
                 "type":"LineString",
@@ -9224,51 +9224,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6057,
-                "endTime":6057,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.92540981453828,
-                        48.35604686340795
-                    ],
-                    [
-                        9.905961936100466,
-                        48.352504857312994
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4160,
-                "endTime":4160,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.992386996575899,
-                        48.44587888820199
-                    ],
-                    [
-                        9.990846961532093,
-                        48.44943188390356
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2337,
-                "endTime":2337,
-                "numberOfTransfers":0
+                "currentTime":2337,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9287,20 +9245,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4364,
-                "endTime":4364,
-                "numberOfTransfers":0
+                "currentTime":4160,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.9730749049725,
-                        48.35102293679915
+                        9.992386996575899,
+                        48.44587888820199
                     ],
                     [
-                        9.97287690578871,
-                        48.346480876501225
+                        9.990846961532093,
+                        48.44943188390356
                     ]
                 ]
             }
@@ -9308,9 +9266,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2977,
-                "endTime":2977,
-                "numberOfTransfers":0
+                "currentTime":6057,
+                "numberOfTransfers":0,
+                "numberOfThreads":6
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.92540981453828,
+                        48.35604686340795
+                    ],
+                    [
+                        9.905961936100466,
+                        48.352504857312994
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2977,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
             },
             "geometry":{
                 "type":"LineString",
@@ -9329,9 +9308,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2199,
-                "endTime":2219,
-                "numberOfTransfers":0
+                "currentTime":4364,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.9730749049725,
+                        48.35102293679915
+                    ],
+                    [
+                        9.97287690578871,
+                        48.346480876501225
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":2219,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9350,30 +9350,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":527,
-                "endTime":527,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.988640844568033,
-                        48.39715097242186
-                    ],
-                    [
-                        9.99286383374476,
-                        48.397516982201864
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1964,
-                "endTime":1964,
-                "numberOfTransfers":0
+                "currentTime":1964,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9392,9 +9371,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6661,
-                "endTime":6661,
-                "numberOfTransfers":0
+                "currentTime":527,
+                "numberOfTransfers":0,
+                "numberOfThreads":26
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.988640844568033,
+                        48.39715097242186
+                    ],
+                    [
+                        9.99286383374476,
+                        48.397516982201864
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":6661,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9413,9 +9413,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2160,
-                "endTime":2160,
-                "numberOfTransfers":0
+                "currentTime":2160,
+                "numberOfTransfers":0,
+                "numberOfThreads":23
             },
             "geometry":{
                 "type":"LineString",
@@ -9434,30 +9434,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":717,
-                "endTime":717,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.99407697455757,
-                        48.39758794898364
-                    ],
-                    [
-                        9.995830841269289,
-                        48.39651599667629
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":2949,
-                "endTime":2949,
-                "numberOfTransfers":0
+                "currentTime":2949,
+                "numberOfTransfers":0,
+                "numberOfThreads":10
             },
             "geometry":{
                 "type":"LineString",
@@ -9476,9 +9455,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4319,
-                "endTime":4319,
-                "numberOfTransfers":0
+                "currentTime":717,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.99407697455757,
+                        48.39758794898364
+                    ],
+                    [
+                        9.995830841269289,
+                        48.39651599667629
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":4319,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9497,9 +9497,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2670,
-                "endTime":2670,
-                "numberOfTransfers":0
+                "currentTime":2670,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9518,9 +9518,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2563,
-                "endTime":2563,
-                "numberOfTransfers":0
+                "currentTime":2563,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -9539,9 +9539,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4024,
-                "endTime":4024,
-                "numberOfTransfers":0
+                "currentTime":4024,
+                "numberOfTransfers":0,
+                "numberOfThreads":11
             },
             "geometry":{
                 "type":"LineString",
@@ -9560,9 +9560,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6924,
-                "endTime":6924,
-                "numberOfTransfers":0
+                "currentTime":6924,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9581,9 +9581,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2894,
-                "endTime":2894,
-                "numberOfTransfers":0
+                "currentTime":2894,
+                "numberOfTransfers":0,
+                "numberOfThreads":26
             },
             "geometry":{
                 "type":"LineString",
@@ -9602,9 +9602,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3330,
-                "endTime":3330,
-                "numberOfTransfers":0
+                "currentTime":3330,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9623,30 +9623,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1964,
-                "endTime":1964,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.95466582375763,
-                        48.39533787359307
-                    ],
-                    [
-                        9.951882845577959,
-                        48.395116963873434
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1969,
-                "endTime":1969,
-                "numberOfTransfers":0
+                "currentTime":1969,
+                "numberOfTransfers":0,
+                "numberOfThreads":5
             },
             "geometry":{
                 "type":"LineString",
@@ -9665,9 +9644,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3293,
-                "endTime":3293,
-                "numberOfTransfers":0
+                "currentTime":1964,
+                "numberOfTransfers":0,
+                "numberOfThreads":4
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.95466582375763,
+                        48.39533787359307
+                    ],
+                    [
+                        9.951882845577959,
+                        48.395116963873434
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3293,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -9686,9 +9686,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":732,
-                "endTime":732,
-                "numberOfTransfers":0
+                "currentTime":732,
+                "numberOfTransfers":0,
+                "numberOfThreads":27
             },
             "geometry":{
                 "type":"LineString",
@@ -9707,51 +9707,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1185,
-                "endTime":1185,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.986986815638545,
-                        48.385283873646344
-                    ],
-                    [
-                        9.986892938320926,
-                        48.385051974320085
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":140,
-                "endTime":174,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.984123929980187,
-                        48.399368824050626
-                    ],
-                    [
-                        9.9839298423513,
-                        48.39715991311878
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3844,
-                "endTime":3844,
-                "numberOfTransfers":0
+                "currentTime":3844,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -9770,9 +9728,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":160,
-                "endTime":160,
-                "numberOfTransfers":0
+                "currentTime":174,
+                "numberOfTransfers":0,
+                "numberOfThreads":21
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.9839298423513,
+                        48.39715991311878
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1185,
+                "numberOfTransfers":0,
+                "numberOfThreads":14
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.986986815638545,
+                        48.385283873646344
+                    ],
+                    [
+                        9.986892938320926,
+                        48.385051974320085
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":160,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -9791,9 +9791,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4232,
-                "endTime":4232,
-                "numberOfTransfers":0
+                "currentTime":4232,
+                "numberOfTransfers":0,
+                "numberOfThreads":3
             },
             "geometry":{
                 "type":"LineString",
@@ -9812,9 +9812,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2773,
-                "endTime":2773,
-                "numberOfTransfers":0
+                "currentTime":2773,
+                "numberOfTransfers":0,
+                "numberOfThreads":16
             },
             "geometry":{
                 "type":"LineString",
@@ -9833,9 +9833,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5088,
-                "endTime":5088,
-                "numberOfTransfers":0
+                "currentTime":5088,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -9854,30 +9854,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":809,
-                "endTime":809,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.974789842399728,
-                        48.395479993421134
-                    ],
-                    [
-                        9.973365850151312,
-                        48.39565694471427
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":1700,
-                "endTime":1700,
-                "numberOfTransfers":0
+                "currentTime":1700,
+                "numberOfTransfers":0,
+                "numberOfThreads":7
             },
             "geometry":{
                 "type":"LineString",
@@ -9896,20 +9875,20 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1839,
-                "endTime":1839,
-                "numberOfTransfers":0
+                "currentTime":809,
+                "numberOfTransfers":0,
+                "numberOfThreads":24
             },
             "geometry":{
                 "type":"LineString",
                 "coordinates":[
                     [
-                        9.960266984111078,
-                        48.39215293658121
+                        9.974789842399728,
+                        48.395479993421134
                     ],
                     [
-                        9.959685838811527,
-                        48.38901288931846
+                        9.973365850151312,
+                        48.39565694471427
                     ]
                 ]
             }
@@ -9917,30 +9896,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":140,
-                "endTime":140,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.984123929980187,
-                        48.399368824050626
-                    ],
-                    [
-                        9.9839298423513,
-                        48.39761998648092
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":3633,
-                "endTime":3633,
-                "numberOfTransfers":0
+                "currentTime":3633,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9959,9 +9917,51 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":6205,
-                "endTime":6205,
-                "numberOfTransfers":0
+                "currentTime":140,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.984123929980187,
+                        48.399368824050626
+                    ],
+                    [
+                        9.9839298423513,
+                        48.39761998648092
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":1839,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.960266984111078,
+                        48.39215293658121
+                    ],
+                    [
+                        9.959685838811527,
+                        48.38901288931846
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":6205,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -9980,9 +9980,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":4132,
-                "endTime":4132,
-                "numberOfTransfers":0
+                "currentTime":4132,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -10001,9 +10001,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":5136,
-                "endTime":5136,
-                "numberOfTransfers":0
+                "currentTime":5136,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
@@ -10022,9 +10022,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":2751,
-                "endTime":2751,
-                "numberOfTransfers":0
+                "currentTime":2751,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -10043,30 +10043,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":301,
-                "endTime":301,
-                "numberOfTransfers":0
-            },
-            "geometry":{
-                "type":"LineString",
-                "coordinates":[
-                    [
-                        9.988200887773951,
-                        48.39717388295771
-                    ],
-                    [
-                        9.988640844568033,
-                        48.39715097242186
-                    ]
-                ]
-            }
-        },
-        {
-            "type":"Feature",
-            "properties":{
-                "startTime":4610,
-                "endTime":4610,
-                "numberOfTransfers":0
+                "currentTime":4610,
+                "numberOfTransfers":0,
+                "numberOfThreads":12
             },
             "geometry":{
                 "type":"LineString",
@@ -10085,9 +10064,30 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":3517,
-                "endTime":3517,
-                "numberOfTransfers":0
+                "currentTime":301,
+                "numberOfTransfers":0,
+                "numberOfThreads":72
+            },
+            "geometry":{
+                "type":"LineString",
+                "coordinates":[
+                    [
+                        9.988200887773951,
+                        48.39717388295771
+                    ],
+                    [
+                        9.988640844568033,
+                        48.39715097242186
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "currentTime":3517,
+                "numberOfTransfers":0,
+                "numberOfThreads":2
             },
             "geometry":{
                 "type":"LineString",
@@ -10106,9 +10106,9 @@ var roads=
         {
             "type":"Feature",
             "properties":{
-                "startTime":1544,
-                "endTime":1544,
-                "numberOfTransfers":0
+                "currentTime":1544,
+                "numberOfTransfers":0,
+                "numberOfThreads":1
             },
             "geometry":{
                 "type":"LineString",
